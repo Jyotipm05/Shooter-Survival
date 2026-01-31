@@ -1,0 +1,62 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 56
+    values:
+      - .github
+      - .github/appmod
+      - .github/appmod/appcat
+      - Easy Lens/Generated Assets/Crosshair_Sticker.png
+      - Easy Lens/Lens Components/Screen Sticker_5.11.lsc
+      - Easy Lens/Lens Components/Screen_Text_5.12.lsc
+      - Easy Lens/Lens Components/Touch Events_5.11.lsc
+      - Easy Lens/Lens Components/cube_spawner__5.14.0.0_.lsc
+      - Echopark.hdr
+      - Enemy/Mutant.fbx
+      - Enemy/Mutant.fbx/.hidden
+      - Enemy/Mutant.fbx/.hidden/mutant_M
+      - Enemy/Mutant.fbx/.hidden/white
+      - Enemy/Mutant.fbx/Animations
+      - Enemy/Mutant.fbx/Animations/Layer0
+      - Enemy/Mutant.fbx/Materials
+      - Enemy/Mutant.fbx/Materials/mutant_M
+      - Enemy/Mutant.fbx/Meshes
+      - Enemy/Mutant.fbx/Meshes/MutantMesh
+      - Enemy/Mutant.fbx/Mutant
+      - Enemy/Mutant.fbx/Textures
+      - Enemy/Mutant.fbx/Textures/Mutant_diffuse
+      - Enemy/Mutant.fbx/Textures/Mutant_normal
+      - World Mesh.mat
+      - World Mesh.worldmesh
+      - World Object Controller.lspkg/Materials
+      - World Object Controller.lspkg/Materials/graph_matte_shadow.mat
+      - World Object Controller.lspkg/Materials/ground_grid.mat
+      - World Object Controller.lspkg/Materials/sphere_diffuse.mat
+      - World Object Controller.lspkg/Materials/touch_collision.mat
+      - World Object Controller.lspkg/Meshes
+      - World Object Controller.lspkg/Meshes/Sphere.mesh
+      - World Object Controller.lspkg/Meshes/plane.mesh
+      - World Object Controller.lspkg/Meshes/touch_collision_cube.mesh
+      - World Object Controller.lspkg/Scripts
+      - World Object Controller.lspkg/Scripts/WorldObjectController.js
+      - World Object Controller.lspkg/Shaders
+      - World Object Controller.lspkg/Shaders/graph_matte_shadow.ss_graph
+      - World Object Controller.lspkg/Shaders/ground_grid.ss_graph
+      - World Object Controller.lspkg/Shaders/touch_collision.ss_graph
+      - World Object Controller.lspkg/Shaders/uber_diffuse.ss_graph
+      - World Object Controller.lspkg/Textures
+      - World Object Controller.lspkg/Textures/Base.png
+      - World Object Controller.lspkg/Textures/MaterialParams.png
+      - World Object Controller.lspkg/Textures/Normal.png
+      - World Object Controller.lspkg/Textures/ground_grid.png
+      - World Object Controller.lspkg/World Object Controller__ADD_TO_SCENE.prefab
+      - World Object Controller.lspkg/package.native
+      - scripts/.github
+      - scripts/.github/appmod
+      - scripts/.github/appmod/appcat
+      - scripts/enemy.js
+      - scripts/globalController.js
+      - scripts/playerTracker.js
+      - scripts/spawner.js
+      - world_mesh.ss_graph
+  options: 4

@@ -1,0 +1,58 @@
+- !<AssetImportMetadata/c904f1a4-7609-4423-b417-9ddd3bb814e0>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 4cf22fc9-1f35-46e3-9e48-b66963824fba
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 4cf22fc9-1f35-46e3-9e48-b66963824fba
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 895a794f-7f33-41c3-bbb7-e4df9f028c23
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/895a794f-7f33-41c3-bbb7-e4df9f028c23>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 788543ec-b1d9-40a7-b1da-876a84553424
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    attackDistance: false
+    enableAnimationSwitching: false
+    enemyModel: false
+    enemyObject: false
+    followDistance: false
+    moveSpeed: false
+    rotationSpeed: false
+    stopDistance: false
+    useLocalTransform: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - enemyObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      enemyModel: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      followDistance: !<float> 10.000000
+      attackDistance: 1.500000
+      stopDistance: !<float> 2.000000
+      moveSpeed: !<float> 2.000000
+      rotationSpeed: !<float> 3.000000
+      useLocalTransform: false
+      enableAnimationSwitching: true
+  ScriptTypes:
+    -
+      {}

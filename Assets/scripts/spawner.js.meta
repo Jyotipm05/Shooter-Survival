@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/e0f5d3f2-92ba-4f25-99b9-a78019265401>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 8bd98f48-1956-41dd-91a4-b41b00669b5c
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 8bd98f48-1956-41dd-91a4-b41b00669b5c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> d1aed0f1-8f80-456f-a257-2a093f19c448
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/d1aed0f1-8f80-456f-a257-2a093f19c448>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 1660f882-854a-4b99-b503-a458e36f9822
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    objectPrefab: false
+    spawnInterval: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - objectPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      spawnInterval: !<float> 1.000000
+  ScriptTypes:
+    -
+      {}

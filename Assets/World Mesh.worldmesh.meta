@@ -1,0 +1,16 @@
+- !<AssetImportMetadata/9b69b70e-d905-4cc9-b320-78bc23b45988>
+  ImportedAssetIds:
+    WorldMesh: !<reference> 7eacb72d-84af-4837-b215-f8ba13ae29fb
+  ImporterName: WorldMeshImporter
+  PrimaryAsset: !<reference> 7eacb72d-84af-4837-b215-f8ba13ae29fb
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

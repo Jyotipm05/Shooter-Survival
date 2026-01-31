@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/cc754ef1-64b2-4e2c-94f4-3025b8962f14>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 335f4952-1f38-4240-bed8-953405878f7e
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 335f4952-1f38-4240-bed8-953405878f7e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 81ff33b7-60ca-43c7-a040-2b35ff1a3a5d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/81ff33b7-60ca-43c7-a040-2b35ff1a3a5d>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: ca0b913d-a443-4b07-a975-3b1d33203b14
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    playerCamera: false
+    worldTrackingComponent: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - playerCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      worldTrackingComponent: !<reference.DeviceTracking> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
