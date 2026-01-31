@@ -1,0 +1,37 @@
+# Lens Studio project files to ignore
+
+# Exclude crash recovery backups
+Backup/
+
+# Exclude cache (optional, speeds up load but not required in source control)
+Cache/
+
+# User-specific project settings
+*.lsproj.user
+*.esproj.user
+
+# Node.js / JavaScript common ignores
+node_modules/
+yarn.lock
+package-lock.json
+
+# Python generated files (if used for tooling)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Preview files (optional, ignore if not needed in repo)
+Previews/Images/
+Previews/Videos/
+
+# Editor swap files
+*.swp
+*.swo
