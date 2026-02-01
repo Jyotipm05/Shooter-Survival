@@ -27,7 +27,9 @@
   PackagePolicy: CanBeUnpacked
   ScriptInputsHidden:
     RestartBtn: false
+    restartButton: false
     startBtn: false
+    startButton: false
     startOnAwake: false
     triggers: false
   ScriptTypesHidden:
@@ -43,6 +45,8 @@
       triggers: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       startBtn: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       RestartBtn: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      startButton: !<reference.InteractionComponent> 00000000-0000-0000-0000-000000000000
+      restartButton: !<reference.InteractionComponent> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}

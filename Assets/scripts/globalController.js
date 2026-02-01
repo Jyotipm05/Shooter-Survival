@@ -6,6 +6,8 @@
 // @input SceneObject triggers
 // @input SceneObject startBtn
 // @input SceneObject RestartBtn
+// @input Component.TouchComponent startButton
+// @input Component.TouchComponent restartButton
 
 // Initialize global flag
 if (global.gameRunning === undefined) {
