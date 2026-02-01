@@ -1,12 +1,15 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 104
+    size: 140
     values:
       - .github
       - .github/appmod
       - .github/appmod/appcat
+      - BG.mat
+      - Behavior.lsc
       - Button.lsc
+      - Easy Lens
       - Easy Lens/Generated Assets
       - Easy Lens/Generated Assets/Crosshair_Sticker.png
       - Easy Lens/Lens Components/CanvasAPI_5.14.lsc
@@ -43,17 +46,49 @@ CollapsedEntities:
       - Enemy/Walking/Textures/Mutant_diffuse.png
       - Enemy/Walking/Textures/Mutant_normal.png
       - Enemy/Walking/Walking.prefab
-      - Image.mat
       - Image.png
-      - Image/Crosshair1.mat
-      - Image/Crosshair2.mat
+      - Image/Cross1.mat
+      - Image/Cross1.ss_graph
+      - Image/Cross2.mat
       - Image/cross1.png
       - Image/cross2.png
+      - Image/cross2.ss_graph
+      - Makeup.lspkg
+      - Makeup.lspkg/2D Makeup__PLACE_IN_SCENE.prefab
+      - Makeup.lspkg/Materials
+      - Makeup.lspkg/Materials/Blush0.mat
+      - Makeup.lspkg/Materials/Eyebrows0.mat
+      - Makeup.lspkg/Materials/Eyelashes0.mat
+      - Makeup.lspkg/Materials/Eyeliner0.mat
+      - Makeup.lspkg/Materials/Eyeshadows0_1.mat
+      - Makeup.lspkg/Materials/Eyeshadows0_2.mat
+      - Makeup.lspkg/Materials/Eyeshadows0_3.mat
+      - Makeup.lspkg/Materials/Lipgloss0.mat
+      - Makeup.lspkg/Materials/Lips0.mat
+      - Makeup.lspkg/Scripts
+      - Makeup.lspkg/Scripts/LipsController.js
+      - Makeup.lspkg/Scripts/MakeupController.js
+      - Makeup.lspkg/Shaders
+      - Makeup.lspkg/Shaders/Blush.ss_graph
+      - Makeup.lspkg/Textures
+      - Makeup.lspkg/Textures/mask_blush.jpg
+      - Makeup.lspkg/Textures/mask_eyebrows.jpg
+      - Makeup.lspkg/Textures/mask_eyelashes.jpg
+      - Makeup.lspkg/Textures/mask_eyeliner.jpg
+      - Makeup.lspkg/Textures/mask_eyeshadow_1.jpg
+      - Makeup.lspkg/Textures/mask_eyeshadow_2.jpg
+      - Makeup.lspkg/Textures/mask_eyeshadow_3.jpg
+      - Makeup.lspkg/Textures/mask_lip_gloss.jpg
+      - Makeup.lspkg/Textures/mask_lips_closed.jpg
+      - Makeup.lspkg/Textures/mask_lips_opened.jpg
+      - Makeup.lspkg/package.native
       - Score UI Component.lsc
+      - UI Button.lsc
       - UI Button.lsc/Modules
       - UI Button.lsc/Modules/DestructionHelper.js
       - UI Button.lsc/Modules/EventModule.js
       - UI Button.lsc/Modules/UIWidgetsModule.js
+      - UI Button.lsc/UI Button/Default Prefabs
       - UI Button.lsc/UI Button/Default Prefabs/Button Background.prefab
       - UI Button.lsc/UI Button/Default Prefabs/Button Foreground.prefab
       - UI Button.lsc/UI Button/Default Prefabs/Button Text.prefab
@@ -97,6 +132,7 @@ CollapsedEntities:
       - World Object Controller.lspkg/Textures/ground_grid.png
       - World Object Controller.lspkg/World Object Controller__ADD_TO_SCENE.prefab
       - World Object Controller.lspkg/package.native
+      - flat 2.ss_graph
       - flat.ss_graph
       - scripts
       - scripts/.github

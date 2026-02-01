@@ -1,0 +1,115 @@
+- !<AssetImportMetadata/eaf96547-1852-34d5-8e9e-d0e3b8c05a3f>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> ee52bd7e-d33a-4402-8233-f220cbb04533
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> ee52bd7e-d33a-4402-8233-f220cbb04533
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 2e8f0071-ad50-40f3-ba1f-9e088f8a7e11
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/2e8f0071-ad50-40f3-ba1f-9e088f8a7e11>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 1
+  VersionPatch: 0
+  ComponentUid: 059b88e6-a5ee-496f-8b37-fcbebfaf90a6
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    advanced: false
+    alphaBlush: false
+    alphaEyebrows: false
+    alphaEyeliner: false
+    alphaEyeshadow1: false
+    alphaEyeshadow2: false
+    alphaEyeshadow3: false
+    alphaLipgloss: false
+    alphaLips: false
+    alphaMascara: false
+    applyLipsFix: false
+    blush: false
+    colorBlush: false
+    colorEyebrows: false
+    colorEyeliner: false
+    colorEyeshadow1: false
+    colorEyeshadow2: false
+    colorEyeshadow3: false
+    colorLipgloss: false
+    colorLips: false
+    colorMascara: false
+    enableBlush: false
+    enableEyebrows: false
+    enableEyeliner: false
+    enableEyeshadow: false
+    enableLipgloss: false
+    enableLips: false
+    enableMascara: false
+    eyebrows: false
+    eyeliner: false
+    eyeshadow: false
+    eyeshadowType: false
+    faceIndex: false
+    lipgloss: false
+    lips: false
+    lipsController: false
+    mascara: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - faceIndex: 0
+      enableLips: true
+      colorLips: !<Vec3> {x: 1.000000, y: 0.000000, z: 0.000000}
+      alphaLips: 0.450000
+      applyLipsFix: false
+      enableLipgloss: true
+      colorLipgloss: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      alphaLipgloss: 0.800000
+      enableBlush: true
+      colorBlush: !<Vec3> {x: 0.920000, y: 0.650000, z: 0.680000}
+      alphaBlush: 0.500000
+      enableEyeliner: true
+      colorEyeliner: !<Vec3> {x: 0.200000, y: 0.200000, z: 0.200000}
+      alphaEyeliner: 0.800000
+      enableEyeshadow: true
+      eyeshadowType: 1
+      colorEyeshadow1: !<Vec3> {x: 1.000000, y: 0.000000, z: 0.000000}
+      alphaEyeshadow1: 0.800000
+      colorEyeshadow2: !<Vec3> {x: 0.000000, y: 1.000000, z: 0.000000}
+      alphaEyeshadow2: 0.800000
+      colorEyeshadow3: !<Vec3> {x: 0.000000, y: 0.000000, z: 1.000000}
+      alphaEyeshadow3: 0.800000
+      enableMascara: true
+      colorMascara: !<Vec3> {x: 1.000000, y: 0.000000, z: 0.000000}
+      alphaMascara: 0.800000
+      enableEyebrows: true
+      colorEyebrows: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      alphaEyebrows: 0.400000
+      advanced: false
+      lips: !<reference.FaceMaskVisual> 00000000-0000-0000-0000-000000000000
+      lipsController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      lipgloss: !<reference.FaceMaskVisual> 00000000-0000-0000-0000-000000000000
+      blush: !<reference.FaceMaskVisual> 00000000-0000-0000-0000-000000000000
+      eyeliner: !<reference.FaceMaskVisual> 00000000-0000-0000-0000-000000000000
+      eyeshadow: !<reference.FaceMaskVisual[]>
+        []
+      mascara: !<reference.FaceMaskVisual> 00000000-0000-0000-0000-000000000000
+      eyebrows: !<reference.FaceMaskVisual> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

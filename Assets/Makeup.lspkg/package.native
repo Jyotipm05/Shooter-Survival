@@ -1,0 +1,40 @@
+- !<NativePackageDescriptor/ba21882b-2f59-4916-b99a-8c34afb1ba72>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 17
+    patch: 2
+    build: 26011319
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: |-
+    The pack, allows you to create a Lens with different makeup styles. You can add lip tint, gloss, blush, eyeliner, eyeshadow, mascara, and eyebrow coloring. No external assets are necessary.
+    
+    https://developers.snap.com/lens-studio/features/ar-tracking/face/face-templates/makeup
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 1
+  VersionPatch: 0
+  UpdateCheckpoint: 83
+  ExportUid: 120660f5-70a2-44b1-b938-e87d961a7617
+  ComponentUid: 1fead5c3-6d91-43fa-bb44-1f12678975a6
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/652881b1-5baa-4de2-824a-b1e3d9a693e6>
+  ImportedAssetIds:
+    816a33a2-ab65-4f80-943b-74bb99527d88: !<reference> 96fd42d6-5163-4d29-8dde-3fe4f82e49d4
+    77afd89f-6052-45e2-b071-f481dfe4ebb2: !<reference> cefe1ed4-7aa2-472d-a569-c955ba5af420
+    c5c1c468-8d47-4e38-a605-65d36c59ed01: !<reference> 50a045c1-9ca7-4035-88c8-e438d2dc8d01
+    9c68e98d-a085-44a9-bce6-7b1e64e67f7c: !<reference> 665bdf50-4e66-4d9c-b019-1558d07f324e
+    4b4abd0f-8993-4261-bea3-699e49a3f779: !<reference> fc01d180-1ad1-4c42-bb6f-d05ae7bffb38
+    fd9878c4-c289-45ac-804f-e93b36ddc5ec: !<reference> 0cd8b5e9-0f77-4999-8b4b-8bb8f098acde
+    ec2bd7aa-126d-4608-87a5-dd8f79b9c128: !<reference> d1517f32-569b-4414-b53b-4735b2748ad6
+    b8aea283-fbe7-4751-8c9c-83731bcfab8b: !<reference> 62d2a7a0-ea39-4349-9616-14f287ef57e9
+    c702c7db-150c-4653-bb4a-98b8b745a384: !<reference> c0470b53-404c-498d-9658-dfa4a6e2ad9b
+    894077e1-3611-45b1-add5-e3a911759fb9: !<reference> 70c2084a-28a9-467a-9dea-701f6f38be55
+    01293222-9a7c-4741-a0ee-4c6a76bbf89f: !<reference> 1aaffa25-4eb0-42cb-a4cb-26aa23e82c87
+    48d30430-079c-4616-b1ee-ff5b823efce4: !<reference> 0dc156fd-6bae-4a42-8177-eb05bd9f40e7
+    4f0a228a-39b3-4881-a54f-19c250823938: !<reference> ac62c383-c98d-47a6-8ae7-b30241861f44
+    99c24931-4be4-47e3-9c1b-780ba2c0ffb5: !<reference> a1b4f6ac-41bb-4f39-bb95-b55e626e5ecf
+    aa5233d8-b9fb-45d5-a4b4-9c3115fc1073: !<reference> cb6bba79-30e0-415d-9bff-a12c895440d0
+    9d4a6f83-f5ab-412f-a6ab-66435aa31141: !<reference> d7a82bd7-726d-4662-96ce-817fb3a4ef7e
+    d4326c1f-b446-421d-bf36-7b1080314ae6: !<reference> f868a01e-a94c-4e17-bace-928b79376e88
+    84277429-e624-4b49-bf1b-187489824fa9: !<reference> 863f8766-12c7-44bf-9805-68bd657b6951
+    03e15d80-9d29-48c3-a26d-0a943cda9f88: !<reference> 2ba0b82b-3e37-4ab8-adb6-ba51f815806e
+    820d9ab1-1193-4d76-87f3-8c061cd493b9: !<reference> 66d887e0-8ae9-49f2-9555-57b69832d3f9
+    e779e812-2a15-4573-b6d3-cd18bbfc7828: !<reference> 0100e9a3-192b-4737-9c28-6aa6581a3a9d
+    12501a3e-2e0b-432e-9fcd-287695978948: !<reference> cab99a83-c6bf-4a04-ab87-eec5a38345b0
+    2ae67ba7-c238-45c2-89a0-bcc187834e06: !<reference> 41a7ad0b-68de-4a1d-bc98-ceb19dd35e6a
+    3a6b0be8-38ea-4f3a-96e1-8277e89a32b6: !<reference> 20d91e27-ce0d-4db6-b6ce-f2167f56bb5f
+    8b8ebf8b-2c03-4914-8de7-5507bb25686b: !<reference> b8d573b6-b76a-49ae-b02c-9fac2e425e9c
+    a69bedf4-6d86-463c-bebc-4d51a071dea5: !<reference> 664ce669-91a7-490d-9519-6ec6dc458c26
+    49f29588-8554-40b7-9bb0-0c17c959e139: !<reference> d0616ae0-3c51-4a76-abfa-fbd980605a57
+    20606b92-b3c6-4c18-8122-dfea20337403: !<reference> b846f668-520f-482a-bdf1-91e759a051a6
+    6274f794-7061-446d-b442-63f59341b4a6: !<reference> 358e374e-1b5e-4736-b4c6-2f45a31fc612
+    87bcafa4-6e85-4ef0-8e0c-950d30b4a42c: !<reference> 2f69c667-fd27-4b0c-8869-cceedad7e6c8
+    22550d84-aff7-4819-965e-bcf7fb517bfb: !<reference> 6ec1a392-937d-45f3-aa46-fa0eb726c513
+    9be435f7-a662-4fbf-a530-2953d99c2056: !<reference> 67ce6036-3c85-4514-bef8-91efb72420ac
+    af306e63-01b3-4e35-85a6-c621675f77fb: !<reference> e24110e7-0435-4527-90bd-3bbb61166320
+  ImporterName: NativePackageImporter
+  PrimaryAsset: !<reference> e24110e7-0435-4527-90bd-3bbb61166320
+  PackageType: PackedNativePackageRoot
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

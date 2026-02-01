@@ -6,8 +6,6 @@
 // @input SceneObject triggers
 // @input SceneObject startBtn
 // @input SceneObject RestartBtn
-// @input Component.UIButton startButton
-// @input Component.UIButton restartButton
 
 // Initialize global flag
 if (global.gameRunning === undefined) {
@@ -16,31 +14,57 @@ if (global.gameRunning === undefined) {
 
 // Control functions
 function startGame() {
-    script.triggers.enabled = global.gameRunning = true;
-    script.startBtn.enabled = false;
-    script.RestartBtn.enabled = false;
+    global.gameRunning = true;
+    script.triggers.enabled = true;
+
+    if (script.startBtn) script.startBtn.enabled = false;
+    if (script.RestartBtn) script.RestartBtn.enabled = false;
 }
+
+global.startGame = startGame;
+global.stopGame = stopGame;
+
 function stopGame() {
-    script.triggers.enabled = global.gameRunning = false;
-    script.RestartBtn.enabled = true;
+    global.gameRunning = false;
+    script.triggers.enabled = false;
+
+    if (script.RestartBtn) script.RestartBtn.enabled = true;
 }
+
 function toggleGame() {
     global.gameRunning = !global.gameRunning;
     script.triggers.enabled = global.gameRunning;
-    script.RestartBtn.enabled = !global.gameRunning;
+
+    if (script.RestartBtn) {
+        script.RestartBtn.enabled = !global.gameRunning;
+    }
 }
 
-script.startButton.onClick = function() {
-    startGame();
-}
-script.restartButton.onClick = function() {
-    startGame();
+// Safe button lookup: attached value could be a Button component or a SceneObject
+function getButtonFromField(field) {
+    if (!field) return null;
+    // If field is already a button-like component
+    if (field.onClick && field.onClick.add) return field;
+    // If field is a SceneObject, try to get a Button component from it
+    if (typeof field.getComponent === 'function') {
+        var btn = field.getComponent("Component.Button") || field.getComponent("Component.UIButton");
+        if (btn && btn.onClick && btn.onClick.add) return btn;
+    }
+    return null;
 }
 
-// Optional: expose a way to start via a tap on this object if it has an InteractionComponent
-if (script.getSceneObject().getComponent("Component.InteractionComponent")) {
-    var interaction = script.getSceneObject().getComponent("Component.InteractionComponent");
-    interaction.onTap = function() {
-        global.toggleGame();
-    };
+var startBtnComp = getButtonFromField(script.startButton) || getButtonFromField(script.startBtn) || getButtonFromField(script.StartBtn);
+if (startBtnComp) {
+    startBtnComp.onClick.add(startGame);
+}
+
+var restartBtnComp = getButtonFromField(script.restartButton) || getButtonFromField(script.RestartBtn) || getButtonFromField(script.restartBtn);
+if (restartBtnComp) {
+    restartBtnComp.onClick.add(startGame);
+}
+
+// Optional tap interaction
+var interaction = script.getSceneObject().getComponent("Component.InteractionComponent");
+if (interaction) {
+    interaction.onTap.add(toggleGame);
 }

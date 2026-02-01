@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/786686bf-b233-77cd-e6de-990a321aeb33>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> abd46518-f5ff-44a0-a367-7a848974433c
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> abd46518-f5ff-44a0-a367-7a848974433c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> b8da5434-7031-4d17-8625-feb95709a3ab
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/b8da5434-7031-4d17-8625-feb95709a3ab>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 1
+  VersionPatch: 0
+  ComponentUid: 9a50ead2-ea89-407e-b7a1-88a3187f0ebc
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    advanced: false
+    faceMask: false
+    mouthClosedMask: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - mouthClosedMask: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      advanced: false
+      faceMask: !<reference.FaceMaskVisual> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

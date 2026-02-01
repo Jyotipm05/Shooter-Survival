@@ -13,6 +13,10 @@
         "./Packages/*",
         "./Cache/TypeScript/Src/Packages/*"
       ],
+      "../Packages/Behavior.lsc/*": [
+        "./Assets/../Packages/Behavior.lsc/*",
+        "./Cache/TypeScript/Src/Assets/../Packages/Behavior.lsc/*"
+      ],
       "Easy Lens/Lens Components/CanvasAPI_5.14.lsc/*": [
         "./Assets/Easy Lens/Lens Components/CanvasAPI_5.14.lsc/*",
         "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/CanvasAPI_5.14.lsc/*"
@@ -50,6 +54,7 @@
     "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/Touch Events_5.11.lsc/**/*.ts",
     "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/cube_spawner__5.14.0.0_.lsc/**/*.ts",
     "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/CanvasAPI_5.14.lsc/**/*.ts",
-    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/Screen Sticker_5.11.lsc/**/*.ts"
+    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/Screen Sticker_5.11.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/../Packages/Behavior.lsc/**/*.ts"
   ]
 }
