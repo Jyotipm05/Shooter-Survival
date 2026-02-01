@@ -1,33 +1,81 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 56
+    size: 106
     values:
       - .github
       - .github/appmod
       - .github/appmod/appcat
+      - Button.lsc
+      - Easy Lens
+      - Easy Lens/Generated Assets
       - Easy Lens/Generated Assets/Crosshair_Sticker.png
+      - Easy Lens/Lens Components
+      - Easy Lens/Lens Components/CanvasAPI_5.14.lsc
       - Easy Lens/Lens Components/Screen Sticker_5.11.lsc
       - Easy Lens/Lens Components/Screen_Text_5.12.lsc
       - Easy Lens/Lens Components/Touch Events_5.11.lsc
       - Easy Lens/Lens Components/cube_spawner__5.14.0.0_.lsc
       - Echopark.hdr
-      - Enemy/Mutant.fbx
-      - Enemy/Mutant.fbx/.hidden
-      - Enemy/Mutant.fbx/.hidden/mutant_M
-      - Enemy/Mutant.fbx/.hidden/white
-      - Enemy/Mutant.fbx/Animations
-      - Enemy/Mutant.fbx/Animations/Layer0
-      - Enemy/Mutant.fbx/Materials
-      - Enemy/Mutant.fbx/Materials/mutant_M
-      - Enemy/Mutant.fbx/Meshes
-      - Enemy/Mutant.fbx/Meshes/MutantMesh
-      - Enemy/Mutant.fbx/Mutant
-      - Enemy/Mutant.fbx/Textures
-      - Enemy/Mutant.fbx/Textures/Mutant_diffuse
-      - Enemy/Mutant.fbx/Textures/Mutant_normal
+      - Enemy
+      - Enemy/Mutant
+      - Enemy/Mutant/.hidden
+      - Enemy/Mutant/.hidden/mutant_M.ss_graph
+      - Enemy/Mutant/.hidden/white.jpg
+      - Enemy/Mutant/Animations
+      - Enemy/Mutant/Animations/Attack.animationAsset
+      - Enemy/Mutant/Materials
+      - Enemy/Mutant/Materials/mutant_M.mat
+      - Enemy/Mutant/Meshes
+      - Enemy/Mutant/Meshes/MutantMesh.mesh
+      - Enemy/Mutant/Mutant.prefab
+      - Enemy/Mutant/Textures
+      - Enemy/Mutant/Textures/Mutant_diffuse.png
+      - Enemy/Mutant/Textures/Mutant_normal.png
+      - Enemy/Walking
+      - Enemy/Walking/.hidden
+      - Enemy/Walking/.hidden/mutant_M.ss_graph
+      - Enemy/Walking/.hidden/white.jpg
+      - Enemy/Walking/Animations/Walking.animationAsset
+      - Enemy/Walking/Materials
+      - Enemy/Walking/Materials/mutant_M.mat
+      - Enemy/Walking/Meshes
+      - Enemy/Walking/Meshes/MutantMesh.mesh
+      - Enemy/Walking/Textures
+      - Enemy/Walking/Textures/Mutant_diffuse.png
+      - Enemy/Walking/Textures/Mutant_normal.png
+      - Enemy/Walking/Walking.prefab
+      - Image.mat
+      - Image.png
+      - Image/Crosshair1.mat
+      - Image/Crosshair2.mat
+      - Image/cross1.png
+      - Image/cross2.png
+      - Score UI Component.lsc
+      - UI Button.lsc/Modules
+      - UI Button.lsc/Modules/DestructionHelper.js
+      - UI Button.lsc/Modules/EventModule.js
+      - UI Button.lsc/Modules/UIWidgetsModule.js
+      - UI Button.lsc/UI Button/Default Prefabs/Button Background.prefab
+      - UI Button.lsc/UI Button/Default Prefabs/Button Foreground.prefab
+      - UI Button.lsc/UI Button/Default Prefabs/Button Text.prefab
+      - UI Button.lsc/UI Button/Fonts
+      - UI Button.lsc/UI Button/Fonts/Poppins-Medium.ttf
+      - UI Button.lsc/UI Button/Materials
+      - UI Button.lsc/UI Button/Materials/Button Default.mat
+      - UI Button.lsc/UI Button/Materials/SpritePreset.lsmat.mat
+      - UI Button.lsc/UI Button/Shaders
+      - UI Button.lsc/UI Button/Shaders/Button Default.ss_graph
+      - UI Button.lsc/UI Button/Shaders/Image.ss_graph
+      - UI Button.lsc/UI Button/Textures
+      - UI Button.lsc/UI Button/Textures/Button_10X.png
+      - UI Button.lsc/UI Button/Textures/Image.png
+      - UI Button.lsc/UI Button/UI Button.js
+      - UI Button.lsc/package.native
+      - UI Panel.lsc
       - World Mesh.mat
       - World Mesh.worldmesh
+      - World Object Controller.lspkg
       - World Object Controller.lspkg/Materials
       - World Object Controller.lspkg/Materials/graph_matte_shadow.mat
       - World Object Controller.lspkg/Materials/ground_grid.mat
@@ -51,6 +99,8 @@ CollapsedEntities:
       - World Object Controller.lspkg/Textures/ground_grid.png
       - World Object Controller.lspkg/World Object Controller__ADD_TO_SCENE.prefab
       - World Object Controller.lspkg/package.native
+      - flat.ss_graph
+      - scripts
       - scripts/.github
       - scripts/.github/appmod
       - scripts/.github/appmod/appcat

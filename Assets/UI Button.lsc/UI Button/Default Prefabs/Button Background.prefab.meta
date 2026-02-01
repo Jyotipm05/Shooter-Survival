@@ -1,0 +1,89 @@
+- !<AssetImportMetadata/52a8a153-ebe1-42c1-666b-c8a7c934af4e>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 4f0a228a-39b3-4881-a54f-19c250823938
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 4f0a228a-39b3-4881-a54f-19c250823938
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 01293222-9a7c-4741-a0ee-4c6a76bbf89f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/01293222-9a7c-4741-a0ee-4c6a76bbf89f>
+  Prototype: !<ObjectOwner/617b2658-a4e7-47a2-a3ba-2c5150189175>
+    PackagePath: ""
+    objects:
+      - !<own> 48d30430-079c-4616-4e11-00a47dc1031b
+- !<SceneObject/48d30430-079c-4616-4e11-00a47dc1031b>
+  PrefabRemaps:
+    []
+  Name: Button Background
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -1.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9d4a6f83-f5ab-412f-5954-99bca55ceebe
+    - !<own> d4326c1f-b446-421d-40c9-84ef7fceb519
+- !<Image/9d4a6f83-f5ab-412f-5954-99bca55ceebe>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6274f794-7061-446d-b442-63f59341b4a6
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<ScreenTransform/d4326c1f-b446-421d-40c9-84ef7fceb519>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: -1.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000

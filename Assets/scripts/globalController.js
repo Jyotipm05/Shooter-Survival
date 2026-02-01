@@ -22,6 +22,10 @@ global.toggleGame = function() {
     global.gameRunning = !global.gameRunning;
 };
 
+script.startGame = global.startGame;
+script.stopGame = global.stopGame;
+script.toggleGame = global.toggleGame;
+
 // Optional: expose a way to start via a tap on this object if it has an InteractionComponent
 if (script.getSceneObject().getComponent("Component.InteractionComponent")) {
     var interaction = script.getSceneObject().getComponent("Component.InteractionComponent");

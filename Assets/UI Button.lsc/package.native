@@ -1,0 +1,101 @@
+- !<NativePackageDescriptor/894077e1-3611-45b1-add5-e3a911759fb9>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 17
+    patch: 2
+    build: 26011319
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: |-
+    UI Button - Trigger events and behaviors by switching on and off.
+    
+    Add callback function to event when button was pressed down
+    // script.onPressDown.add(callback)
+    //
+    // Remove callback function from event when button was pressed down
+    // script.onPressDown.remove(callback)
+    //
+    // Add callback function to event when button was pressed up
+    // script.onPressUp.add(callback)
+    //
+    // Remove callback function from  event when button was pressed up
+    // script.onPressUp.remove(callback)
+    //
+    // Add callback function to event when button is pressed
+    // script.onPress.add(callback)
+    //
+    // Remove callback function from event
+    // script.onPress.remove(callback)
+    
+    // Manually enable interactable
+    // script.enableInteractable()
+    //
+    // Manually disable interactable
+    // script.disableInteractable()
+    //
+    // True if interactable
+    // script.isInteractable()
+    //
+    // True if pressed
+    // script.isPressed()
+    //
+    // Enable touch events
+    // script.enableTouchEvents()
+    //
+    // Disable touch events
+    // script.disableTouchEvents()
+    //
+    // Manually trigger Press Down (call only when touch events are disabled)
+    // script.pressDown()
+    //
+    // Manually trigger Press Up (call only when touch events are disabled)
+    // script.pressUp()
+    //
+    // Change this button's animation type to a newType ("Bounce", "Squish", "Tween", "AnchorPosition", "OffsetPosition", "Rotation", or "Scale")
+    // script.changeAnimationType(newType)
+    //
+    // Set the value of one of this UI Button’s transition types ("Color", "Texture", "Tween", "AnchorPosition", "OffsetPosition", "Rotation", or "Scale") for when it switches to a different state ("normal", "pressed", or "disabled")
+    // script.changeStateValue(state, type, newValue)
+    //
+    // Get the current color of the Button's Background
+    // script.getColor()
+    //
+    // Get the current texture of the Button's Background
+    // script.getTexture()
+    //
+    // Get the text component of this button
+    // script.getTextComponent()
+    //
+  SvgIcon: |
+    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="16.5" cy="16.5" r="11.5" stroke="#D0DAE6" stroke-width="2"/>
+    <circle cx="16.5" cy="16.5" r="7.5" fill="#D0DAE6"/>
+    </svg>
+
+  SetupScript:
+    code: ""
+  VersionMajor: 11
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 83
+  ExportUid: 2c16ee59-9332-4daf-97a6-266a418632d3
+  ComponentUid: 0005ec0c-8f52-724f-0000-00000000b2fd
+  PackagePolicy: CanBeUnpacked
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> af306e63-01b3-4e35-85a6-c621675f77fb
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: UI Button
+    AssetId: 4X5q6NhW2Y8JfkQmYmqOdX
+    Hash: 8e743a593f51a97e9d0cda18b8e65238
+    Version:
+      major: 11
+      minor: 0
+      patch: 0
+      build: 0

@@ -13,7 +13,7 @@ metaInfo:
     - lens_hint_look_around
   tags:
     []
-  lensName: Debug Text Helper
+  lensName: Target Mode
   lensDescriptors:
     []
   lensApplicability:
@@ -22,8 +22,8 @@ metaInfo:
     - Mobile
     - Web
   platformBundlesEnabled: false
-  iconHash: 650bca1fb24e3693765eed928e330752
-  videoPreviewHash: ""
+  iconHash: 310542f49452fbad4c8a337c3c467a7e
+  videoPreviewHash: be17241f43a73c0954980accd3a2846c
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.17.2.26011319
   activationCamera: Rear
