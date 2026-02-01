@@ -1,37 +1,36 @@
-- !<AssetImportMetadata/8e09c26e-050d-4240-8229-ed12676d7b5e>
+- !<AssetImportMetadata/1d95b7db-0de3-1a7c-0751-aad18c16d7f7>
   ImportedAssetIds:
-    JavaScriptAsset: !<reference> 3c2dcab1-4968-421e-91cd-f8d22cdfd545
+    JavaScriptAsset: !<reference> 0770a7a6-3ade-44b0-ab08-2210f94fb21f
   ImporterName: JavaScriptAssetImporter
-  PrimaryAsset: !<reference> 3c2dcab1-4968-421e-91cd-f8d22cdfd545
+  PrimaryAsset: !<reference> 0770a7a6-3ade-44b0-ab08-2210f94fb21f
   PackageType: NotAPackage
   LegacyPackagePolicy: ~
   ExtraData:
-    USE_EASY_LENS: ""
+    AssetLibraryId: 7KdKQ3loPSY1Di6Bvq1bg0
   AssetDataMap:
-    JavaScriptAsset: !<own> 14e0f755-cd9f-47d7-be52-55cf8e6a69b0
+    JavaScriptAsset: !<own> e333cd6f-1f1d-4717-9514-c35ac981fb05
   DependentFiles:
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-- !<ScriptAssetData/14e0f755-cd9f-47d7-be52-55cf8e6a69b0>
+- !<ScriptAssetData/e333cd6f-1f1d-4717-9514-c35ac981fb05>
   SvgIcon: ""
   SetupScript:
     code: ""
   Description: ""
-  VersionMajor: 0
+  VersionMajor: 1
   VersionMinor: 0
   VersionPatch: 0
-  ComponentUid: 8c160feb-be0d-4766-a6af-26c2a36ecda8
+  ComponentUid: db67a987-35ff-4ab7-9e3a-c505d1b619d5
   ExportUid: 00000000-0000-0000-0000-000000000000
   PackagePolicy: CanBeUnpacked
   ScriptInputsHidden:
-    centre: false
-    count: false
-    cript: false
-    cube3d_spawner: false
+    Active: false
+    behaviorCallback: false
+    deviceTracking: false
+    parent: false
     prefab: false
-    radius: false
   ScriptTypesHidden:
     {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
@@ -41,12 +40,12 @@
   Attachments:
     []
   DefaultScriptInputs:
-    - cube3d_spawner: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
-      centre: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      radius: !<float> 0.000000
-      count: 0
+    - deviceTracking: !<reference.DeviceTracking> 00000000-0000-0000-0000-000000000000
       prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
-      cript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      parent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      Active: false
+      behaviorCallback: !<reference.ScriptComponent[]>
+        []
   ScriptTypes:
     -
       {}

@@ -13,7 +13,7 @@ metaInfo:
     - lens_hint_look_around
   tags:
     []
-  lensName: Mutant Arena 3D
+  lensName: Mesh Magic Time
   lensDescriptors:
     []
   lensApplicability:
@@ -22,7 +22,7 @@ metaInfo:
     - Mobile
     - Web
   platformBundlesEnabled: false
-  iconHash: ff0a2498b47d14eb1284535a9ee219cc
+  iconHash: 1c98217e0ed80748fa882cf6c58d094d
   videoPreviewHash: be17241f43a73c0954980accd3a2846c
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.17.2.26011319

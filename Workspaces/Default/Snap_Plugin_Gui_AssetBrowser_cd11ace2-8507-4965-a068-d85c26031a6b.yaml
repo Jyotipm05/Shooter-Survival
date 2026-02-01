@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 165
+    size: 189
     values:
       - .github
       - .github/appmod
@@ -9,7 +9,7 @@ CollapsedEntities:
       - BG.mat
       - Behavior.lsc
       - Button.lsc
-      - Easy Lens/Generated Assets
+      - Easy Lens
       - Easy Lens/Generated Assets/Energy_Projectile_Sprite.png
       - Easy Lens/Generated Assets/Futuristic_Mutant_Body_Morph.glb
       - Easy Lens/Generated Assets/Futuristic_Mutant_Body_Morph.glb/.hidden
@@ -42,7 +42,6 @@ CollapsedEntities:
       - Easy Lens/LensController 9.js
       - Easy Lens/LensController.js
       - Echopark.hdr
-      - Enemy/Mutant
       - Enemy/Mutant/.hidden
       - Enemy/Mutant/.hidden/mutant_M.ss_graph
       - Enemy/Mutant/.hidden/white.jpg
@@ -69,6 +68,7 @@ CollapsedEntities:
       - Enemy/Walking/Textures/Mutant_diffuse.png
       - Enemy/Walking/Textures/Mutant_normal.png
       - Enemy/Walking/Walking.prefab
+      - Image
       - Image.png
       - Image/Cross1.mat
       - Image/Cross1.ss_graph
@@ -106,6 +106,28 @@ CollapsedEntities:
       - Makeup.lspkg/Textures/mask_lips_opened.jpg
       - Makeup.lspkg/package.native
       - Score UI Component.lsc
+      - Spawn Object at World Mesh On Tap.lspkg
+      - Spawn Object at World Mesh On Tap.lspkg/Materials
+      - Spawn Object at World Mesh On Tap.lspkg/Materials/InternalPBRGraph.mat
+      - Spawn Object at World Mesh On Tap.lspkg/Materials/occluder.mat
+      - Spawn Object at World Mesh On Tap.lspkg/Materials/world_mesh_visualization.mat
+      - Spawn Object at World Mesh On Tap.lspkg/Meshes
+      - Spawn Object at World Mesh On Tap.lspkg/Meshes/Pin.mesh
+      - Spawn Object at World Mesh On Tap.lspkg/Prefabs
+      - Spawn Object at World Mesh On Tap.lspkg/Prefabs/Point of Interest.prefab
+      - Spawn Object at World Mesh On Tap.lspkg/Scripts
+      - Spawn Object at World Mesh On Tap.lspkg/Scripts/Spawn Object at World Mesh On Tap.js
+      - Spawn Object at World Mesh On Tap.lspkg/Shaders/InternalPBRGraph1.ss_graph
+      - Spawn Object at World Mesh On Tap.lspkg/Shaders/occluder.ss_graph
+      - Spawn Object at World Mesh On Tap.lspkg/Shaders/world_mesh_visualization.ss_graph
+      - Spawn Object at World Mesh On Tap.lspkg/Spawn Object at World Mesh on Tap__PLACE_IN_SCENE.prefab
+      - Spawn Object at World Mesh On Tap.lspkg/Textures
+      - Spawn Object at World Mesh On Tap.lspkg/Textures/Base.png
+      - Spawn Object at World Mesh On Tap.lspkg/Textures/MaterialParams.png
+      - Spawn Object at World Mesh On Tap.lspkg/Textures/Normal.png
+      - Spawn Object at World Mesh On Tap.lspkg/Textures/ground_tex.png
+      - Spawn Object at World Mesh On Tap.lspkg/World Mesh.worldmesh
+      - Spawn Object at World Mesh On Tap.lspkg/package.native
       - UI Button.lsc
       - UI Button.lsc/Modules
       - UI Button.lsc/Modules/DestructionHelper.js
@@ -129,6 +151,7 @@ CollapsedEntities:
       - UI Button.lsc/UI Button/UI Button.js
       - UI Button.lsc/package.native
       - UI Panel.lsc
+      - Untitled JavaScript.js
       - World Mesh.mat
       - World Mesh.worldmesh
       - World Object Controller.lspkg
@@ -160,6 +183,7 @@ CollapsedEntities:
       - scripts/.github
       - scripts/.github/appmod
       - scripts/.github/appmod/appcat
+      - scripts/Parent_setter.js
       - scripts/Restart.js
       - scripts/Shoot.js
       - scripts/Start.js

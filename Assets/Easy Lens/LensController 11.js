@@ -3,6 +3,11 @@
 // Made with Easy Lens
 
 //@input Component.ScriptComponent cube3d_spawner
+//@input vec3 centre
+//@input float radius
+//@input int count
+//@input Asset.ObjectPrefab prefab
+//@input Component.ScriptComponent cript
 
 
 try {
@@ -79,20 +84,49 @@ function rayAABB3D(origin, dir, minB, maxB) {
     return null;
 }
 
+function spawn(screenPos) {
+    // var results = script.deviceTracking.hitTestWorldMesh((0.5,0.5)||screenPos);
+    
+
+    if (true) {
+        // Get World Mesh data at the tapped screen position
+        // var point = results[0].position;
+        // var normal = results[0].normal;
+
+        // Instantiate the object we want to place
+        var newObj = script.prefab.instantiate(null);
+        newObj.setParent(global.parent);
+
+        // Position the object based on the user taps
+        newObj.getTransform().setWorldPosition(script.point);
+
+        // Rotate the object based on World Mesh Surface
+        var up = vec3.up();
+        var forwardDir = up.projectOnPlane(normal);
+        var rot = quat.lookAt(forwardDir, normal);
+        newObj.getTransform().setWorldRotation(rot);
+
+        // Call Callbacks
+        triggerBehaviors(script.behaviorCallback);
+    }
+}
+
 function spawnEnemiesInRadius(center, radius, count) {
     // NOTE: Real prefab instantiation (Enemy/Mutant/Mutant) under the 3D Foreground Camera is not available via current blocks.
     // This uses Cube 3D Spawner as a placeholder placed relative to the camera center.
     // When prefab spawning becomes available, replace spawnCube(...) with spawning the Mutant prefab
     // and parent it under the 3D Foreground Camera, preserving positions/rotations computed below.
     // Clear previous
-    script.cube3d_spawner.clear();
+    // script.cube3d_spawner.clear();
     enemies = [];
 
     // Spawn enemies on a horizontal ring around the given center at radius distance
     for (var i = 0; i < count; i = i + 1) {
-        var angle = (i / count) * Math.PI * 2;
+        var angle = Math.random() * Math.PI * 2;
         var dirXZ = new vec3(Math.cos(angle), 0, Math.sin(angle));
         var offset = vec3Scale(dirXZ, radius);
+        print(center)
+        print(offset)
         var pos = new vec3(center.x + offset.x, center.y + offset.y, center.z + offset.z);
 
         var color = new vec4(0.85, 0.2, 0.2, 1.0);
@@ -100,15 +134,16 @@ function spawnEnemiesInRadius(center, radius, count) {
         var scale = new vec3(enemyUniformScale, enemyUniformScale, enemyUniformScale);
 
         // Placeholder AR enemy spawn (represents Enemy/Mutant/Mutant prefab under Foreground camera)
-        var cube = script.cube3d_spawner.spawnCube(pos, color, rot, scale);
-        script.cube3d_spawner.enableCube(cube);
+        // var cube = script.cube3d_spawner.spawnCube(pos, color, rot, scale);
+        // script.cube3d_spawner.enableCube(cube);
+        script.cript.spawnObjectOnWorldMeshAt(pos)
 
-        enemies.push({
-            cube: cube,
-            alive: true,
-            // Local AABB in cube space at unit scale, scaled uniformly later
-            halfExtent: enemyUniformScale * 0.5 // treating cube of size 1, uniform scale
-        });
+        // enemies.push({
+        //     cube: cube,
+        //     alive: true,
+        //     // Local AABB in cube space at unit scale, scaled uniformly later
+        //     halfExtent: enemyUniformScale * 0.5 // treating cube of size 1, uniform scale
+        // });
     }
 }
 
@@ -156,6 +191,7 @@ function tryShootRayFromCamera(center) {
 }
 
 function setupAimAndInteraction(center) {
+    // console.log(center)
     // No UpdateEvent used. Perform a one-time face-player rotation at spawn time.
     for (var i = 0; i < enemies.length; i = i + 1) {
         var e = enemies[i];
@@ -184,14 +220,15 @@ function setupAimAndInteraction(center) {
 // Init
 script.createEvent("OnStartEvent").bind(function() {
     // Ensure spawner is enabled
-    script.cube3d_spawner.enabled = true;
+    // script.cube3d_spawner.enabled = true;
 
-    var center = new vec3(0, 0, 0);
-    spawnEnemiesInRadius(center, ringRadiusMeters, enemyCount);
-    setupAimAndInteraction(center);
+    var center = script.centre;
+    spawnEnemiesInRadius(center, script.radius, script.count);
+    // setupAimAndInteraction(center);
 });
 
 } catch(e) {
   print("error in controller");
   print(e);
 }
+
