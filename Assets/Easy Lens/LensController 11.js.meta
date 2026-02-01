@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/8e09c26e-050d-4240-8229-ed12676d7b5e>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 3c2dcab1-4968-421e-91cd-f8d22cdfd545
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 3c2dcab1-4968-421e-91cd-f8d22cdfd545
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    USE_EASY_LENS: ""
+  AssetDataMap:
+    JavaScriptAsset: !<own> 14e0f755-cd9f-47d7-be52-55cf8e6a69b0
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/14e0f755-cd9f-47d7-be52-55cf8e6a69b0>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 8c160feb-be0d-4766-a6af-26c2a36ecda8
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    cube3d_spawner: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - cube3d_spawner: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

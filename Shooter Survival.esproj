@@ -13,7 +13,7 @@ metaInfo:
     - lens_hint_look_around
   tags:
     []
-  lensName: Mutant Mayhem
+  lensName: Mutant Arena 3D
   lensDescriptors:
     []
   lensApplicability:
@@ -22,7 +22,7 @@ metaInfo:
     - Mobile
     - Web
   platformBundlesEnabled: false
-  iconHash: fb848d7e479911b4a588c5bed5d33ec9
+  iconHash: ff0a2498b47d14eb1284535a9ee219cc
   videoPreviewHash: be17241f43a73c0954980accd3a2846c
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.17.2.26011319

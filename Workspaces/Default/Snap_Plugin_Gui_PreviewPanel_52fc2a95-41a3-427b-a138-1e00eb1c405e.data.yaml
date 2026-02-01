@@ -14,7 +14,7 @@ data:
     input:
       source: InteractiveResources.bundle/Scenes/Evening Outdoor
       upscale: 1280
-    cameraView: Back
+    cameraView: Front
   interactiveAspect: 1.000000
   interactiveFov: 66.519997
   internetAvailableOverride: true

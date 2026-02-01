@@ -10,6 +10,7 @@
     - !<own> 7b898a82-d680-4e21-914f-305c4d41840f
     - !<own> ac035ce6-b2c1-45c3-97a3-22694737d871
     - !<own> d4a79ceb-0768-4d81-8a55-177137345010
+    - !<own> 780263ea-94de-4656-8cae-c55b60a6e8cb
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       - |
@@ -371,6 +372,7 @@
   Children:
     - !<own> 6c8b26af-9a97-4a9a-9128-44bd31286a26
     - !<own> 510cfd54-a089-4c73-a74b-bd117108bcec
+    - !<own> 5887f9b9-f68d-4993-b898-ec1268bd74db
   Components:
     - !<own> a441bac1-c1d7-4423-b8c5-01c91c2a76e3
 - !<ScreenTransform/0e41ed12-4e11-4a09-bc73-f381d48dfa9d>
@@ -665,6 +667,22 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<ScriptComponent/1ffe05da-668a-48b4-82a6-aa14bf4a5dfa>
+  PrefabRemaps:
+    []
+  Name: LensController 11
+  Enabled: true
+  ScriptAsset: !<reference> 3c2dcab1-4968-421e-91cd-f8d22cdfd545
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      cube3d_spawner: !<reference.ScriptComponent> 5c026e2f-988c-4453-9033-5a098482ac8a
+  ScriptTypes:
+    "":
+      {}
 - !<RenderMeshVisual/24fa9a16-1362-4f10-83de-f94e8eff1125>
   PrefabRemaps:
     []
@@ -1657,6 +1675,37 @@
   ScriptTypes:
     "":
       {}
+- !<SceneObject/5887f9b9-f68d-4993-b898-ec1268bd74db>
+  PrefabRemaps:
+    []
+  Name: Cube 3D Spawner
+  Enabled: true
+  Layers: 4096
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5c026e2f-988c-4453-9033-5a098482ac8a
+- !<ScriptComponent/5c026e2f-988c-4453-9033-5a098482ac8a>
+  PrefabRemaps:
+    []
+  Name: blocker
+  Enabled: true
+  ScriptAsset: !<reference> bb30e81c-5002-490b-9b4d-d61db30d15eb
+  ScriptInputsDefault:
+    cubePrefab: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      cubePrefab: !<reference.ObjectPrefab> b661297c-5c59-4732-a05e-7e65b254f1f2
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/5c9f4645-e833-49e1-be33-2d7375bd1bcf>
   PrefabRemaps:
     []
@@ -2267,6 +2316,21 @@
   ScriptTypes:
     "":
       {}
+- !<SceneObject/780263ea-94de-4656-8cae-c55b60a6e8cb>
+  PrefabRemaps:
+    []
+  Name: Main Controller
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1ffe05da-668a-48b4-82a6-aa14bf4a5dfa
 - !<ScreenTransform/78d28662-08fa-433e-b72e-7396daa69e55>
   PrefabRemaps:
     []
@@ -3349,7 +3413,7 @@
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 0.031250, y: 0.031250, z: 0.031250}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
   Children:
     []

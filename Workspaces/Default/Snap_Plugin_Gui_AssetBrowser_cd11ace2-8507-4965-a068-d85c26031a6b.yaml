@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 139
+    size: 165
     values:
       - .github
       - .github/appmod
@@ -9,11 +9,37 @@ CollapsedEntities:
       - BG.mat
       - Behavior.lsc
       - Button.lsc
+      - Easy Lens/Generated Assets
+      - Easy Lens/Generated Assets/Energy_Projectile_Sprite.png
+      - Easy Lens/Generated Assets/Futuristic_Mutant_Body_Morph.glb
+      - Easy Lens/Generated Assets/Futuristic_Mutant_Body_Morph.glb/.hidden
+      - Easy Lens/Generated Assets/Futuristic_Mutant_Body_Morph.glb/.hidden/Material 1
+      - Easy Lens/Generated Assets/Futuristic_Mutant_Body_Morph.glb/Futuristic_Mutant_Body_Morph
+      - Easy Lens/Generated Assets/Futuristic_Mutant_Body_Morph.glb/Materials
+      - Easy Lens/Generated Assets/Futuristic_Mutant_Body_Morph.glb/Materials/Material 1
+      - Easy Lens/Generated Assets/Futuristic_Mutant_Body_Morph.glb/Meshes
+      - Easy Lens/Generated Assets/Futuristic_Mutant_Body_Morph.glb/Meshes/mesh_0
+      - Easy Lens/Generated Assets/Futuristic_Mutant_Body_Morph.glb/Textures
+      - Easy Lens/Generated Assets/Futuristic_Mutant_Body_Morph.glb/Textures/texture
+      - Easy Lens/Generated Assets/Futuristic_Soldier_Sprite.png
+      - Easy Lens/Generated Assets/Robotic_Enemy_Sprite.png
+      - Easy Lens/Lens Components/CanvasAPI_5.14.lsc
+      - Easy Lens/Lens Components/FullBodyCostume_5.17.0.0.lsc
       - Easy Lens/Lens Components/Screen_Text_5.12.lsc
+      - Easy Lens/Lens Components/SpriteManager_5.14.lsc
+      - Easy Lens/Lens Components/SpriteStore_5.14.lsc
       - Easy Lens/Lens Components/Touch Events_5.11.lsc
+      - Easy Lens/Lens Components/cube_spawner__5.14.0.0_.lsc
+      - Easy Lens/LensController 10.js
+      - Easy Lens/LensController 11.js
       - Easy Lens/LensController 2.js
       - Easy Lens/LensController 3.js
+      - Easy Lens/LensController 4.js
       - Easy Lens/LensController 5.js
+      - Easy Lens/LensController 6.js
+      - Easy Lens/LensController 7.js
+      - Easy Lens/LensController 8.js
+      - Easy Lens/LensController 9.js
       - Easy Lens/LensController.js
       - Echopark.hdr
       - Enemy/Mutant

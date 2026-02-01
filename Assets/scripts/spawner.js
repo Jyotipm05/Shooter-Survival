@@ -12,4 +12,4 @@ function onUpdate(eventData) {
         timeSinceLast = 0;
     }
 }
-script.createEvent("UpdateEvent").bind(onUpdate);
+
