@@ -26,7 +26,12 @@
   ExportUid: 00000000-0000-0000-0000-000000000000
   PackagePolicy: CanBeUnpacked
   ScriptInputsHidden:
+    RestartBtn: false
+    restartButton: false
+    startBtn: false
+    startButton: false
     startOnAwake: false
+    triggers: false
   ScriptTypesHidden:
     {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
@@ -37,6 +42,11 @@
     []
   DefaultScriptInputs:
     - startOnAwake: false
+      triggers: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      startBtn: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      RestartBtn: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      startButton: !<reference.UIButton> 00000000-0000-0000-0000-000000000000
+      restartButton: !<reference.UIButton> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}

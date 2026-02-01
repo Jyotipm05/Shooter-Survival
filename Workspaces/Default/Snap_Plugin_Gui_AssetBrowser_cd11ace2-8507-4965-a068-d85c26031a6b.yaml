@@ -1,16 +1,14 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 106
+    size: 104
     values:
       - .github
       - .github/appmod
       - .github/appmod/appcat
       - Button.lsc
-      - Easy Lens
       - Easy Lens/Generated Assets
       - Easy Lens/Generated Assets/Crosshair_Sticker.png
-      - Easy Lens/Lens Components
       - Easy Lens/Lens Components/CanvasAPI_5.14.lsc
       - Easy Lens/Lens Components/Screen Sticker_5.11.lsc
       - Easy Lens/Lens Components/Screen_Text_5.12.lsc
