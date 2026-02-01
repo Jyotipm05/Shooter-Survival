@@ -5,8 +5,8 @@ data:
   cameraType: Perspective
   deviceName: iPhone 14 Pro
   devicePose:
-    eulerRotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    translation: {x: 0.000000, y: 0.000000, z: -147.000000}
+    eulerRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    translation: {x: 0.000000, y: 0.000000, z: 0.000000}
   deviceTypeOverride: Unknown
   fullscreenSpectaclesSimulation: true
   inputSourceData:

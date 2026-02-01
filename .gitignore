@@ -1,37 +1,18 @@
-# Lens Studio project files to ignore
+# Shipped by Lens Studio
 
-# Exclude crash recovery backups
-Backup/
+# The lines below are automatically generated and updated by Lens Studio.
+# Please do not modify them manually, as changes will be overwritten each time!
+# If you want to make changes to this file, please put them either above or below this section.
 
-# Exclude cache (optional, speeds up load but not required in source control)
-Cache/
-
-# User-specific project settings
-*.lsproj.user
-*.esproj.user
-
-# Node.js / JavaScript common ignores
-node_modules/
-yarn.lock
-package-lock.json
-
-# Python generated files (if used for tooling)
-__pycache__/
-*.py[cod]
-*$py.class
-
-# OS-specific files
+Cache/**
+PluginsUserPreferences/**
+Support/**
+BackUp/**
+Workspaces/**
+.vscode/**
+/jsconfig.json
+/tsconfig.json
 .DS_Store
-Thumbs.db
+*.lock
 
-# Logs and temporary files
-*.log
-*.tmp
-
-# Preview files (optional, ignore if not needed in repo)
-Previews/Images/
-Previews/Videos/
-
-# Editor swap files
-*.swp
-*.swo
+# Shipped by Lens Studio
