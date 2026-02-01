@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/7f856bb5-0ea7-4628-ae9f-ebc32269fc95>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 608b5575-ba28-43d4-bf82-fb70fae295d4
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 608b5575-ba28-43d4-bf82-fb70fae295d4
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    USE_EASY_LENS: ""
+  AssetDataMap:
+    JavaScriptAsset: !<own> d72a8703-9128-48bb-a339-8552c6b9f95f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/d72a8703-9128-48bb-a339-8552c6b9f95f>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 3c48aaea-f27e-4768-97d8-035cc1b1dc7f
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    healthText: false
+    killText: false
+    restartButton: false
+    startButton: false
+    timerText: false
+    touchEvents: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - touchEvents: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      timerText: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      healthText: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      killText: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      startButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      restartButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

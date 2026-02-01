@@ -13,7 +13,7 @@ metaInfo:
     - lens_hint_look_around
   tags:
     []
-  lensName: Target Mode
+  lensName: Stats Corner Clash
   lensDescriptors:
     []
   lensApplicability:
@@ -22,7 +22,7 @@ metaInfo:
     - Mobile
     - Web
   platformBundlesEnabled: false
-  iconHash: 310542f49452fbad4c8a337c3c467a7e
+  iconHash: fad651b7231401154b97f2abffac4752
   videoPreviewHash: be17241f43a73c0954980accd3a2846c
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.17.2.26011319

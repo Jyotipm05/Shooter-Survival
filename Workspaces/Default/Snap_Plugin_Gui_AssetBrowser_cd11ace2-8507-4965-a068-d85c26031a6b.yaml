@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 140
+    size: 138
     values:
       - .github
       - .github/appmod
@@ -9,14 +9,10 @@ CollapsedEntities:
       - BG.mat
       - Behavior.lsc
       - Button.lsc
-      - Easy Lens
-      - Easy Lens/Generated Assets
-      - Easy Lens/Generated Assets/Crosshair_Sticker.png
-      - Easy Lens/Lens Components/CanvasAPI_5.14.lsc
-      - Easy Lens/Lens Components/Screen Sticker_5.11.lsc
       - Easy Lens/Lens Components/Screen_Text_5.12.lsc
       - Easy Lens/Lens Components/Touch Events_5.11.lsc
-      - Easy Lens/Lens Components/cube_spawner__5.14.0.0_.lsc
+      - Easy Lens/LensController 2.js
+      - Easy Lens/LensController.js
       - Echopark.hdr
       - Enemy
       - Enemy/Mutant
@@ -134,10 +130,12 @@ CollapsedEntities:
       - World Object Controller.lspkg/package.native
       - flat 2.ss_graph
       - flat.ss_graph
-      - scripts
       - scripts/.github
       - scripts/.github/appmod
       - scripts/.github/appmod/appcat
+      - scripts/Restart.js
+      - scripts/Shoot.js
+      - scripts/Start.js
       - scripts/enemy.js
       - scripts/globalController.js
       - scripts/playerTracker.js
