@@ -1,20 +1,20 @@
-- !<AssetImportMetadata/e064e385-e0a1-46bc-86a1-bde5828258ba>
+- !<AssetImportMetadata/37cd4ccf-2234-47a0-9424-1421652d2ec2>
   ImportedAssetIds:
-    JavaScriptAsset: !<reference> f650786e-149e-4a40-be7a-a04ee391f5d0
+    JavaScriptAsset: !<reference> 8b1e3f86-122b-4ca3-83b9-93da1ea98298
   ImporterName: JavaScriptAssetImporter
-  PrimaryAsset: !<reference> f650786e-149e-4a40-be7a-a04ee391f5d0
+  PrimaryAsset: !<reference> 8b1e3f86-122b-4ca3-83b9-93da1ea98298
   PackageType: NotAPackage
   LegacyPackagePolicy: ~
   ExtraData:
     USE_EASY_LENS: ""
   AssetDataMap:
-    JavaScriptAsset: !<own> 88a9c792-9574-4f1b-a7aa-9d6c9abc0ed2
+    JavaScriptAsset: !<own> 26a0e39b-3f1d-45f4-aa21-f10a65a1acf2
   DependentFiles:
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-- !<ScriptAssetData/88a9c792-9574-4f1b-a7aa-9d6c9abc0ed2>
+- !<ScriptAssetData/26a0e39b-3f1d-45f4-aa21-f10a65a1acf2>
   SvgIcon: ""
   SetupScript:
     code: ""
@@ -22,16 +22,18 @@
   VersionMajor: 0
   VersionMinor: 0
   VersionPatch: 0
-  ComponentUid: 02ab8435-75e3-4b3f-bf28-dedf8f17090b
+  ComponentUid: ac516ffa-0ad0-42c8-bd20-1ca4150b1872
   ExportUid: 00000000-0000-0000-0000-000000000000
   PackagePolicy: CanBeUnpacked
   ScriptInputsHidden:
+    hasARSpawner: false
     healthText: false
     killText: false
     restartButton: false
     shootBtnLeft: false
     shootBtnRight: false
     startButton: false
+    timeLimitSec: false
     timerText: false
     touchEvents: false
   ScriptTypesHidden:
@@ -51,6 +53,8 @@
       restartButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       shootBtnLeft: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       shootBtnRight: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      timeLimitSec: !<float> 180.000000
+      hasARSpawner: false
   ScriptTypes:
     -
       {}

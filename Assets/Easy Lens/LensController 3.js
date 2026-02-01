@@ -17,9 +17,13 @@ try {
 // Game state variables
 let isRunning = false;
 let isEnded = false;
-let timeRemaining = 180; // seconds (3 minutes)
+// @input float timeLimitSec = 180.0
+let timeRemaining = script.timeLimitSec; // seconds
 let health = 100;
 let score = 0;
+
+// Inputs for AR spawner configuration (set these on the spawner under '#3D Foreground Camera')
+// @input bool hasARSpawner = false
 
 let updateEvent = null;
 
@@ -37,10 +41,8 @@ function clearEnemies() {
 }
 
 function spawnEnemy() {
-    // NOTE: Visual 3D spawn must be done by a separate AR script under '#3D Foreground Camera'.
-    // Guard so we don't create invisible logical enemies if no spawner is present.
+    // Must have AR spawner active to create enemies
     if (!script.hasARSpawner) {
-        // When no AR spawner is wired, do not create logical enemies; prevents phantom damage.
         return;
     }
     const enemy = { id: Math.floor(Math.random() * 1000000), alive: true, distanceToPlayer: 5.0 };
@@ -137,7 +139,7 @@ function startGame() {
     isEnded = false;
 
     // Initialize gameplay values on start
-    timeRemaining = 180;
+    timeRemaining = script.timeLimitSec;
     health = 100;
     score = 0;
 
@@ -290,9 +292,9 @@ function isTouchOverTextBlock(block, x, y) {
 
 // Configure touch behavior to prevent camera switching during gameplay
 if (script.touchEvents) {
-    // Block default touches to keep gameplay control; also keep double tap from switching camera
+    // Block default touches to keep gameplay control; allowDoubleTap true so Snapchat will not switch camera when blocked
     script.touchEvents.blockDefaultTouches = true;
-    script.touchEvents.allowDoubleTap = false;
+    script.touchEvents.allowDoubleTap = true;
 }
 
 // Touch handling: tap to press buttons and shoot when tapping the left/right shoot buttons
@@ -429,6 +431,11 @@ onStart.bind(function() {
         // Default to false; set to true from your AR spawner when ready.
         script.hasARSpawner = false;
     }
+    // Ensure time limit is valid (fallback to 180s if not set or invalid)
+    if (!script.timeLimitSec || script.timeLimitSec <= 0) {
+        script.timeLimitSec = 180.0;
+    }
+    timeRemaining = script.timeLimitSec;
     init();
 });
 

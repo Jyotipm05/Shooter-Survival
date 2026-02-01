@@ -8,6 +8,8 @@
 //@input Component.ScriptComponent killText
 //@input Component.ScriptComponent startButton
 //@input Component.ScriptComponent restartButton
+//@input Component.ScriptComponent shootBtnLeft
+//@input Component.ScriptComponent shootBtnRight
 
 
 try {
@@ -15,11 +17,53 @@ try {
 // Game state variables
 let isRunning = false;
 let isEnded = false;
-let timeRemaining = 60; // seconds
+// @input float timeLimitSec = 180.0
+let timeRemaining = script.timeLimitSec; // seconds
 let health = 100;
 let score = 0;
 
 let updateEvent = null;
+
+// Enemy management (Note: actual 3D spawning and animation components must exist in the AR scene. This script tracks logical enemies only.)
+// Each enemy tracked as: { id, alive, distanceToPlayer }
+let enemies = [];
+let spawnDelaySec = 2.0;
+let spawnerEvent = null;
+
+function clearEnemies() {
+    for (let i = 0; i < enemies.length; i = i + 1) {
+        enemies[i].alive = false;
+    }
+    enemies = [];
+}
+
+function spawnEnemy() {
+    // NOTE: Visual 3D spawn must be done by a separate AR script under '#3D Foreground Camera'.
+    // Guard so we don't create invisible logical enemies if no spawner is present.
+    if (!script.hasARSpawner) {
+        // When no AR spawner is wired, do not create logical enemies; prevents phantom damage.
+        return;
+    }
+    const enemy = { id: Math.floor(Math.random() * 1000000), alive: true, distanceToPlayer: 5.0 };
+    enemies.push(enemy);
+}
+
+
+function scheduleNextSpawn() {
+    if (!spawnerEvent) {
+        spawnerEvent = script.createEvent("DelayedCallbackEvent");
+        spawnerEvent.bind(function() {
+            if (!isRunning) {
+                return;
+            }
+            spawnEnemy();
+            scheduleNextSpawn();
+        });
+    }
+    const interval = 1.5 + Math.random() * 2.5; // between 1.5s and 4s
+    spawnerEvent.reset(interval);
+}
+
 
 // Safe-region for UI texts that change
 if (script.startButton && script.startButton.forceSafeRegion) {
@@ -36,6 +80,12 @@ if (script.healthText && script.healthText.forceSafeRegion) {
 }
 if (script.killText && script.killText.forceSafeRegion) {
     script.killText.forceSafeRegion(true);
+}
+if (script.shootBtnLeft && script.shootBtnLeft.forceSafeRegion) {
+    script.shootBtnLeft.forceSafeRegion(true);
+}
+if (script.shootBtnRight && script.shootBtnRight.forceSafeRegion) {
+    script.shootBtnRight.forceSafeRegion(true);
 }
 
 // Helper: update Stats UI (timer/health/score)
@@ -65,6 +115,18 @@ function refreshUI() {
             script.restartButton.text = "Restart Game";
         }
     }
+
+    // Style shoot buttons as semi-transparent and label
+    if (script.shootBtnLeft) {
+        script.shootBtnLeft.text = "Shoot";
+        script.shootBtnLeft.backgroundEnabled = true;
+        script.shootBtnLeft.backgroundColor = new vec4(1.0, 1.0, 1.0, 0.25);
+    }
+    if (script.shootBtnRight) {
+        script.shootBtnRight.text = "Shoot";
+        script.shootBtnRight.backgroundEnabled = true;
+        script.shootBtnRight.backgroundColor = new vec4(1.0, 1.0, 1.0, 0.25);
+    }
 }
 
 // Start game logic
@@ -76,7 +138,7 @@ function startGame() {
     isEnded = false;
 
     // Initialize gameplay values on start
-    timeRemaining = 60;
+    timeRemaining = script.timeLimitSec;
     health = 100;
     score = 0;
 
@@ -88,6 +150,17 @@ function startGame() {
     if (script.restartButton) {
         script.restartButton.enabled = false;
     }
+
+    // Show shoot buttons during gameplay
+    if (script.shootBtnLeft) {
+        script.shootBtnLeft.enabled = true;
+    }
+    if (script.shootBtnRight) {
+        script.shootBtnRight.enabled = true;
+    }
+
+    // Start spawning enemies
+    scheduleNextSpawn();
 
     refreshUI();
 
@@ -113,11 +186,22 @@ function endGame() {
         script.restartButton.enabled = true;
     }
 
+    // Hide shoot buttons at end
+    if (script.shootBtnLeft) {
+        script.shootBtnLeft.enabled = false;
+    }
+    if (script.shootBtnRight) {
+        script.shootBtnRight.enabled = false;
+    }
+
     refreshUI();
 
     if (updateEvent) {
         updateEvent.enabled = false;
     }
+
+    // Stop future spawns and clear enemies list
+    clearEnemies();
 }
 
 // Restart game logic
@@ -142,14 +226,37 @@ function onUpdate() {
         timeRemaining = 0;
     }
 
-    // Example: passive health drain over time (tunable)
-    health = health - getDeltaTime() * 2;
+    // If no visible AR spawner is connected, pause enemy logic to avoid phantom damage.
+    const arSpawnerActive = !!script.hasARSpawner;
+
+    // Enemy proximity damages player only when AR spawns are active and enemies exist
+    if (arSpawnerActive && enemies.length > 0) {
+        // Simulate chase by reducing their distance-to-player over time.
+        for (let i = 0; i < enemies.length; i = i + 1) {
+            if (!enemies[i].alive) {
+                continue;
+            }
+            enemies[i].distanceToPlayer = enemies[i].distanceToPlayer - getDeltaTime() * 0.7; // approach speed
+            if (enemies[i].distanceToPlayer <= 0.5) {
+                // Enemy reached player: deal damage and mark as not alive (consumed)
+                health = health - 10;
+                enemies[i].alive = false;
+            }
+        }
+    }
+
     if (health < 0) {
         health = 0;
     }
 
-    // Score updating would normally happen on gameplay events (e.g., kills)
-    // Placeholder: no automatic increment here
+    // Cull dead enemies from list
+    let aliveList = [];
+    for (let j = 0; j < enemies.length; j = j + 1) {
+        if (enemies[j].alive) {
+            aliveList.push(enemies[j]);
+        }
+    }
+    enemies = aliveList;
 
     // Check end conditions
     if (timeRemaining <= 0 || health <= 0) {
@@ -157,9 +264,10 @@ function onUpdate() {
         return;
     }
 
-    // Update UI each frame to reflect progress (Stats region texts should be updated by their own blocks)
+    // Update UI each frame to reflect progress
     refreshUI();
 }
+
 
 // Simple hit-test for button text blocks based on their screen-space bounds
 // This uses a rough bounding box assumption around the text center; tune the hit size as needed.
@@ -181,7 +289,14 @@ function isTouchOverTextBlock(block, x, y) {
     return false;
 }
 
-// Touch handling: tap to press buttons and simulate a kill when tapping elsewhere
+// Configure touch behavior to prevent camera switching during gameplay
+if (script.touchEvents) {
+    // Block default touches to keep gameplay control; also keep double tap from switching camera
+    script.touchEvents.blockDefaultTouches = true;
+    script.touchEvents.allowDoubleTap = false;
+}
+
+// Touch handling: tap to press buttons and shoot when tapping the left/right shoot buttons
 if (script.touchEvents && script.touchEvents.onTap) {
     script.touchEvents.onTap.add(function(tapX, tapY) {
         // If Start button is enabled and tapped
@@ -198,11 +313,52 @@ if (script.touchEvents && script.touchEvents.onTap) {
                 return;
             }
         }
-        // If game is running and tap is not on a button, count a kill
+        // Shooting buttons
+        let shot = false;
         if (isRunning) {
-            score = score + 1;
-            refreshUI();
+            if (script.shootBtnLeft && script.shootBtnLeft.enabled) {
+                if (isTouchOverTextBlock(script.shootBtnLeft, tapX, tapY)) {
+                    shot = true;
+                }
+            }
+            if (script.shootBtnRight && script.shootBtnRight.enabled) {
+                if (isTouchOverTextBlock(script.shootBtnRight, tapX, tapY)) {
+                    shot = true;
+                }
+            }
+            if (shot) {
+                // Only allow a hit when AR spawner is active and we actually have enemies
+                if (!script.hasARSpawner || enemies.length === 0) {
+                    return;
+                }
+                // Simulate crosshair-aligned kill by picking closest enemy.
+                let closestIndex = -1;
+                let closestDist = 9999;
+                for (let i = 0; i < enemies.length; i = i + 1) {
+                    if (!enemies[i].alive) {
+                        continue;
+                    }
+                    if (enemies[i].distanceToPlayer < closestDist) {
+                        closestDist = enemies[i].distanceToPlayer;
+                        closestIndex = i;
+                    }
+                }
+                if (closestIndex >= 0) {
+                    enemies[closestIndex].alive = false;
+                    score = score + 1;
+                    refreshUI();
+                }
+                return;
+            }
         }
+    });
+}
+
+
+// Listen for double tap so it does nothing during gameplay (prevents camera swap)
+if (script.touchEvents && script.touchEvents.onDoubleTap) {
+    script.touchEvents.onDoubleTap.add(function() {
+        // Intentionally empty to swallow the gesture while playing
     });
 }
 
@@ -238,12 +394,47 @@ function init() {
         script.restartButton.position = new vec2(0.5, 0.62);
         script.restartButton.alignment = 1; // Center
     }
+
+    // Place semi-transparent shoot buttons bottom-left and bottom-right
+    if (script.shootBtnLeft) {
+        script.shootBtnLeft.enabled = false; // hidden until game starts
+        script.shootBtnLeft.position = new vec2(0.15, 0.85);
+        script.shootBtnLeft.size = 0.7;
+        script.shootBtnLeft.alignment = 1;
+        script.shootBtnLeft.backgroundEnabled = true;
+        script.shootBtnLeft.backgroundColor = new vec4(1.0, 1.0, 1.0, 0.25);
+        script.shootBtnLeft.backgroundScale = 0.6;
+        script.shootBtnLeft.backgroundRoundness = 1.0;
+        script.shootBtnLeft.shadowEnabled = false;
+    }
+    if (script.shootBtnRight) {
+        script.shootBtnRight.enabled = false; // hidden until game starts
+        script.shootBtnRight.position = new vec2(0.85, 0.85);
+        script.shootBtnRight.size = 0.7;
+        script.shootBtnRight.alignment = 1;
+        script.shootBtnRight.backgroundEnabled = true;
+        script.shootBtnRight.backgroundColor = new vec4(1.0, 1.0, 1.0, 0.25);
+        script.shootBtnRight.backgroundScale = 0.6;
+        script.shootBtnRight.backgroundRoundness = 1.0;
+        script.shootBtnRight.shadowEnabled = false;
+    }
     refreshUI();
 }
 
 // Run init on start
 const onStart = script.createEvent("OnStartEvent");
 onStart.bind(function() {
+    // If you wired an AR spawner under '#3D Foreground Camera', expose a flag via script.hasARSpawner = true from that spawner script.
+    // This prevents phantom logical enemies and unwanted health decay when no enemies are visible.
+    if (!script.hasARSpawner) {
+        // Default to false; set to true from your AR spawner when ready.
+        script.hasARSpawner = false;
+    }
+    // Ensure time limit is valid (fallback to 180s if not set or invalid)
+    if (!script.timeLimitSec || script.timeLimitSec <= 0) {
+        script.timeLimitSec = 180.0;
+    }
+    timeRemaining = script.timeLimitSec;
     init();
 });
 

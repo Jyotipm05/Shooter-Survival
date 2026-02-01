@@ -1,20 +1,20 @@
-- !<AssetImportMetadata/12674575-c3ae-42fa-a88e-952456c3f3dc>
+- !<AssetImportMetadata/ab95cfd3-9e61-47b0-b5fc-c8f5ab9bd286>
   ImportedAssetIds:
-    JavaScriptAsset: !<reference> 1ed65207-fa69-4d7c-a21c-e202f65fab37
+    JavaScriptAsset: !<reference> 52c3e1ba-e3a1-4659-bf2c-1a04a907da9a
   ImporterName: JavaScriptAssetImporter
-  PrimaryAsset: !<reference> 1ed65207-fa69-4d7c-a21c-e202f65fab37
+  PrimaryAsset: !<reference> 52c3e1ba-e3a1-4659-bf2c-1a04a907da9a
   PackageType: NotAPackage
   LegacyPackagePolicy: ~
   ExtraData:
     USE_EASY_LENS: ""
   AssetDataMap:
-    JavaScriptAsset: !<own> 044b54fc-ca4c-4ecb-949b-220c9331431a
+    JavaScriptAsset: !<own> 59db3555-29b8-43cd-ba56-89149b31b88a
   DependentFiles:
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-- !<ScriptAssetData/044b54fc-ca4c-4ecb-949b-220c9331431a>
+- !<ScriptAssetData/59db3555-29b8-43cd-ba56-89149b31b88a>
   SvgIcon: ""
   SetupScript:
     code: ""
@@ -22,14 +22,17 @@
   VersionMajor: 0
   VersionMinor: 0
   VersionPatch: 0
-  ComponentUid: 3af0ac36-96dc-42c0-b00a-54cbad5d4ec3
+  ComponentUid: 1a97d7e5-217c-48ab-8ba1-0d08c1fde25a
   ExportUid: 00000000-0000-0000-0000-000000000000
   PackagePolicy: CanBeUnpacked
   ScriptInputsHidden:
     healthText: false
     killText: false
     restartButton: false
+    shootBtnLeft: false
+    shootBtnRight: false
     startButton: false
+    timeLimitSec: false
     timerText: false
     touchEvents: false
   ScriptTypesHidden:
@@ -47,6 +50,9 @@
       killText: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       startButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       restartButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      shootBtnLeft: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      shootBtnRight: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      timeLimitSec: !<float> 180.000000
   ScriptTypes:
     -
       {}

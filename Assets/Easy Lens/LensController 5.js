@@ -37,16 +37,12 @@ function clearEnemies() {
 }
 
 function spawnEnemy() {
-    // NOTE: Visual 3D spawn must be done by a separate AR script under '#3D Foreground Camera'.
-    // Guard so we don't create invisible logical enemies if no spawner is present.
-    if (!script.hasARSpawner) {
-        // When no AR spawner is wired, do not create logical enemies; prevents phantom damage.
-        return;
-    }
+    // NOTE: With available blocks we cannot instantiate 3D prefabs directly here.
+    // Hook this function to your AR spawner under '#3D Foreground Camera' to instantiate a chosen prefab and
+    // attach walk/attack animation scripts. We still track logic for chase/attack in this array.
     const enemy = { id: Math.floor(Math.random() * 1000000), alive: true, distanceToPlayer: 5.0 };
     enemies.push(enemy);
 }
-
 
 function scheduleNextSpawn() {
     if (!spawnerEvent) {
@@ -62,7 +58,6 @@ function scheduleNextSpawn() {
     const interval = 1.5 + Math.random() * 2.5; // between 1.5s and 4s
     spawnerEvent.reset(interval);
 }
-
 
 // Safe-region for UI texts that change
 if (script.startButton && script.startButton.forceSafeRegion) {
@@ -225,25 +220,19 @@ function onUpdate() {
         timeRemaining = 0;
     }
 
-    // If no visible AR spawner is connected, pause enemy logic to avoid phantom damage.
-    const arSpawnerActive = !!script.hasARSpawner;
-
-    // Enemy proximity damages player only when AR spawns are active and enemies exist
-    if (arSpawnerActive && enemies.length > 0) {
-        // Simulate chase by reducing their distance-to-player over time.
-        for (let i = 0; i < enemies.length; i = i + 1) {
-            if (!enemies[i].alive) {
-                continue;
-            }
-            enemies[i].distanceToPlayer = enemies[i].distanceToPlayer - getDeltaTime() * 0.7; // approach speed
-            if (enemies[i].distanceToPlayer <= 0.5) {
-                // Enemy reached player: deal damage and mark as not alive (consumed)
-                health = health - 10;
-                enemies[i].alive = false;
-            }
+    // Enemy proximity damages player. Decrease health when any enemy is near.
+    // Simulate chase by reducing their distance-to-player over time.
+    for (let i = 0; i < enemies.length; i = i + 1) {
+        if (!enemies[i].alive) {
+            continue;
+        }
+        enemies[i].distanceToPlayer = enemies[i].distanceToPlayer - getDeltaTime() * 0.7; // approach speed
+        if (enemies[i].distanceToPlayer <= 0.5) {
+            // Enemy reached player: deal damage and mark as not alive (consumed)
+            health = health - 10;
+            enemies[i].alive = false;
         }
     }
-
     if (health < 0) {
         health = 0;
     }
@@ -257,16 +246,18 @@ function onUpdate() {
     }
     enemies = aliveList;
 
+    // Score updating would normally happen on gameplay events (e.g., kills)
+    // Placeholder: no automatic increment here
+
     // Check end conditions
     if (timeRemaining <= 0 || health <= 0) {
         endGame();
         return;
     }
 
-    // Update UI each frame to reflect progress
+    // Update UI each frame to reflect progress (Stats region texts should be updated by their own blocks)
     refreshUI();
 }
-
 
 // Simple hit-test for button text blocks based on their screen-space bounds
 // This uses a rough bounding box assumption around the text center; tune the hit size as needed.
@@ -326,11 +317,8 @@ if (script.touchEvents && script.touchEvents.onTap) {
                 }
             }
             if (shot) {
-                // Only allow a hit when AR spawner is active and we actually have enemies
-                if (!script.hasARSpawner || enemies.length === 0) {
-                    return;
-                }
-                // Simulate crosshair-aligned kill by picking closest enemy.
+                // Crosshair ray-hit in AR should be handled by the 3D spawner/AR script.
+                // With current blocks, simulate hit by removing the closest enemy.
                 let closestIndex = -1;
                 let closestDist = 9999;
                 for (let i = 0; i < enemies.length; i = i + 1) {
@@ -352,7 +340,6 @@ if (script.touchEvents && script.touchEvents.onTap) {
         }
     });
 }
-
 
 // Listen for double tap so it does nothing during gameplay (prevents camera swap)
 if (script.touchEvents && script.touchEvents.onDoubleTap) {
@@ -423,12 +410,6 @@ function init() {
 // Run init on start
 const onStart = script.createEvent("OnStartEvent");
 onStart.bind(function() {
-    // If you wired an AR spawner under '#3D Foreground Camera', expose a flag via script.hasARSpawner = true from that spawner script.
-    // This prevents phantom logical enemies and unwanted health decay when no enemies are visible.
-    if (!script.hasARSpawner) {
-        // Default to false; set to true from your AR spawner when ready.
-        script.hasARSpawner = false;
-    }
     init();
 });
 
