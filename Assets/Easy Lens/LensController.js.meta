@@ -1,20 +1,20 @@
-- !<AssetImportMetadata/e064e385-e0a1-46bc-86a1-bde5828258ba>
+- !<AssetImportMetadata/8d4f4b4e-a6d1-470b-819c-79cedfbeda63>
   ImportedAssetIds:
-    JavaScriptAsset: !<reference> f650786e-149e-4a40-be7a-a04ee391f5d0
+    JavaScriptAsset: !<reference> 43f30f74-9346-44fb-b0fc-d5cec51d73dd
   ImporterName: JavaScriptAssetImporter
-  PrimaryAsset: !<reference> f650786e-149e-4a40-be7a-a04ee391f5d0
+  PrimaryAsset: !<reference> 43f30f74-9346-44fb-b0fc-d5cec51d73dd
   PackageType: NotAPackage
   LegacyPackagePolicy: ~
   ExtraData:
     USE_EASY_LENS: ""
   AssetDataMap:
-    JavaScriptAsset: !<own> 88a9c792-9574-4f1b-a7aa-9d6c9abc0ed2
+    JavaScriptAsset: !<own> 6a2186c4-4679-498b-adb1-bebe0938fa31
   DependentFiles:
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-- !<ScriptAssetData/88a9c792-9574-4f1b-a7aa-9d6c9abc0ed2>
+- !<ScriptAssetData/6a2186c4-4679-498b-adb1-bebe0938fa31>
   SvgIcon: ""
   SetupScript:
     code: ""
@@ -22,18 +22,29 @@
   VersionMajor: 0
   VersionMinor: 0
   VersionPatch: 0
-  ComponentUid: 02ab8435-75e3-4b3f-bf28-dedf8f17090b
+  ComponentUid: 6ff5e25f-4d7a-4278-8ee3-0c1abdc00d3b
   ExportUid: 00000000-0000-0000-0000-000000000000
   PackagePolicy: CanBeUnpacked
   ScriptInputsHidden:
+    aliveEnemyThreshold: false
+    and: false
+    canvasUI: false
+    damagePerSecond: false
+    enemySpriteName: false
     healthText: false
-    killText: false
+    initialHealth: false
+    killCountText: false
+    maxConcurrentEnemies: false
     restartButton: false
-    shootBtnLeft: false
-    shootBtnRight: false
+    spawnIntervalSec: false
+    spawnRadiusFactor: false
+    spawnerDistanceFactor: false
+    spriteManager: false
+    spriteStore: false
     startButton: false
+    timeLimitSeconds: false
     timerText: false
-    touchEvents: false
+    totalEnemiesToSpawn: false
   ScriptTypesHidden:
     {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
@@ -43,14 +54,25 @@
   Attachments:
     []
   DefaultScriptInputs:
-    - touchEvents: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+    - spriteStore: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       timerText: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      canvasUI: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      spriteManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      killCountText: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       healthText: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
-      killText: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       startButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       restartButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
-      shootBtnLeft: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
-      shootBtnRight: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      and: !<RequiredType.Time> 00000000-0000-0000-0000-000000000000
+      timeLimitSeconds: 180
+      initialHealth: 100
+      aliveEnemyThreshold: 5
+      damagePerSecond: !<float> 10.000000
+      spawnIntervalSec: 1.500000
+      maxConcurrentEnemies: 12
+      totalEnemiesToSpawn: 50
+      spawnerDistanceFactor: 0.350000
+      spawnRadiusFactor: 0.250000
+      enemySpriteName: enemy
   ScriptTypes:
     -
       {}
