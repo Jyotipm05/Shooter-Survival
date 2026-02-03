@@ -181,35 +181,35 @@ try {
         }
         
         // Check if we have enemies left in the pool
-        console.log("Enemy list length:", elist.length);
+        print("Enemy list length:", elist.length);
         if (elist.length === 0) {
-            console.log("ERROR: No more enemies in pool!");
+            print("ERROR: No more enemies in pool!");
             return;
         }
         
         const newObj = elist.pop();
-        console.log("work 1 - newObj:", newObj);
+        print("work 1 - newObj:", newObj);
         
         // Check if newObj is valid
         if (!newObj) {
-            console.log("ERROR: newObj is null/undefined!");
+            print("ERROR: newObj is null/undefined!");
             return;
         }
         
-        console.log("newObj type:", typeof newObj);
-        console.log("newObj enabled before:", newObj.enabled);
+        print("newObj type:", typeof newObj);
+        print("newObj enabled before:", newObj.enabled);
         
         try {
             newObj.enabled = true;
-            console.log("newObj enabled after:", newObj.enabled);
+            print("newObj enabled after:", newObj.enabled);
         } catch (error) {
-            console.log("ERROR setting enabled:", error);
+            print("ERROR setting enabled:", error);
             return;
         }
         
         enemies.push(newObj);
         enemiesSpawned = enemiesSpawned + 1;
-        console.log("work 2 - Successfully spawned enemy");
+        print("work 2 - Successfully spawned enemy");
         
         // Start enemy behavior coroutine
         startCoroutine(enemyBehavior, newObj);
@@ -247,7 +247,7 @@ try {
                 }
             }
         } catch (error) {
-            console.log("Error in enemy behavior:", error);
+            print("Error in enemy behavior:", error);
         }
     }
 
@@ -393,6 +393,6 @@ try {
     });
 
 } catch (e) {
-    console.log("error in controller");
-    console.log(e);
+    print("error in controller");
+    print(e);
 }

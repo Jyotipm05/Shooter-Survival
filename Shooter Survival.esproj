@@ -13,7 +13,7 @@ metaInfo:
     - lens_hint_look_around
   tags:
     []
-  lensName: Arcade Aim
+  lensName: Jump Coin Quest
   lensDescriptors:
     []
   lensApplicability:
@@ -22,7 +22,7 @@ metaInfo:
     - Mobile
     - Web
   platformBundlesEnabled: false
-  iconHash: bc228336a99024eb00d496d810cb7a26
+  iconHash: c43c33891709cc05ac511516074bdc5f
   videoPreviewHash: be17241f43a73c0954980accd3a2846c
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.17.2.26011319

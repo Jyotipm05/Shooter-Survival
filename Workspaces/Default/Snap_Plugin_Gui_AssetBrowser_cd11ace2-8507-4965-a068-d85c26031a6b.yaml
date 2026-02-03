@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 169
+    size: 461
     values:
       - ""
       - .github
@@ -10,18 +10,287 @@ CollapsedEntities:
       - BG.mat
       - Behavior.lsc
       - Button.lsc
-      - Easy Lens
       - Easy Lens/Generated Assets
+      - Easy Lens/Generated Assets/Blue_Slime_Enemy_Sticker.png
       - Easy Lens/Generated Assets/Cartoon_Enemy_Robot_Sprite.png
+      - Easy Lens/Generated Assets/Cartoon_Gold_Coin.glb
+      - Easy Lens/Generated Assets/Cartoon_Gold_Coin.glb/.hidden
+      - Easy Lens/Generated Assets/Cartoon_Gold_Coin.glb/.hidden/Material_0
+      - Easy Lens/Generated Assets/Cartoon_Gold_Coin.glb/Cartoon_Gold_Coin
+      - Easy Lens/Generated Assets/Cartoon_Gold_Coin.glb/Materials
+      - Easy Lens/Generated Assets/Cartoon_Gold_Coin.glb/Materials/Material_0
+      - Easy Lens/Generated Assets/Cartoon_Gold_Coin.glb/Meshes
+      - Easy Lens/Generated Assets/Cartoon_Gold_Coin.glb/Meshes/geometry_0
+      - Easy Lens/Generated Assets/Cartoon_Gold_Coin.glb/Textures
+      - Easy Lens/Generated Assets/Cartoon_Gold_Coin.glb/Textures/Image_0
+      - Easy Lens/Generated Assets/Cartoon_Golden_Trophy.glb
+      - Easy Lens/Generated Assets/Cartoon_Golden_Trophy.glb/.hidden
+      - Easy Lens/Generated Assets/Cartoon_Golden_Trophy.glb/.hidden/Material_0
+      - Easy Lens/Generated Assets/Cartoon_Golden_Trophy.glb/Cartoon_Golden_Trophy
+      - Easy Lens/Generated Assets/Cartoon_Golden_Trophy.glb/Materials
+      - Easy Lens/Generated Assets/Cartoon_Golden_Trophy.glb/Materials/Material_0
+      - Easy Lens/Generated Assets/Cartoon_Golden_Trophy.glb/Meshes
+      - Easy Lens/Generated Assets/Cartoon_Golden_Trophy.glb/Meshes/geometry_0
+      - Easy Lens/Generated Assets/Cartoon_Golden_Trophy.glb/Textures
+      - Easy Lens/Generated Assets/Cartoon_Golden_Trophy.glb/Textures/Image_0
+      - Easy Lens/Generated Assets/Cartoon_Spiky_Hazard_Block.glb
+      - Easy Lens/Generated Assets/Cartoon_Spiky_Hazard_Block.glb/.hidden
+      - Easy Lens/Generated Assets/Cartoon_Spiky_Hazard_Block.glb/.hidden/Material_0
+      - Easy Lens/Generated Assets/Cartoon_Spiky_Hazard_Block.glb/Cartoon_Spiky_Hazard_Block
+      - Easy Lens/Generated Assets/Cartoon_Spiky_Hazard_Block.glb/Materials
+      - Easy Lens/Generated Assets/Cartoon_Spiky_Hazard_Block.glb/Materials/Material_0
+      - Easy Lens/Generated Assets/Cartoon_Spiky_Hazard_Block.glb/Meshes
+      - Easy Lens/Generated Assets/Cartoon_Spiky_Hazard_Block.glb/Meshes/geometry_0
+      - Easy Lens/Generated Assets/Cartoon_Spiky_Hazard_Block.glb/Textures
+      - Easy Lens/Generated Assets/Cartoon_Spiky_Hazard_Block.glb/Textures/Image_0
+      - Easy Lens/Generated Assets/Cartoon_Stone_Wall_Block.glb
+      - Easy Lens/Generated Assets/Cartoon_Stone_Wall_Block.glb/.hidden
+      - Easy Lens/Generated Assets/Cartoon_Stone_Wall_Block.glb/.hidden/Material_0
+      - Easy Lens/Generated Assets/Cartoon_Stone_Wall_Block.glb/Cartoon_Stone_Wall_Block
+      - Easy Lens/Generated Assets/Cartoon_Stone_Wall_Block.glb/Materials
+      - Easy Lens/Generated Assets/Cartoon_Stone_Wall_Block.glb/Materials/Material_0
+      - Easy Lens/Generated Assets/Cartoon_Stone_Wall_Block.glb/Meshes
+      - Easy Lens/Generated Assets/Cartoon_Stone_Wall_Block.glb/Meshes/geometry_0
+      - Easy Lens/Generated Assets/Cartoon_Stone_Wall_Block.glb/Textures
+      - Easy Lens/Generated Assets/Cartoon_Stone_Wall_Block.glb/Textures/Image_0
+      - Easy Lens/Generated Assets/Golden_Star_Score_Particle.png
+      - Easy Lens/Generated Assets/Green_Alien_Enemy_Sticker.png
+      - Easy Lens/Generated Assets/Purple_Bat_Enemy_Sticker.png
+      - Easy Lens/Generated Assets/Red_Robot_Enemy_Sticker.png
+      - Easy Lens/Generated Assets/Vibrant_Game_Score_Banner.png
       - Easy Lens/Lens Components
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Bitmoji 3D.lsc
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Body Morph Player Package.lspkg
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Body Morph Player Package.lspkg/BodyMorph_Anims
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Body Morph Player Package.lspkg/BodyMorph_Anims/Breathing Idle (1).fbx
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Body Morph Player Package.lspkg/BodyMorph_Anims/Breathing Idle (1).fbx/Animations
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Body Morph Player Package.lspkg/BodyMorph_Anims/Breathing Idle (1).fbx/Animations/Layer0
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Body Morph Player Package.lspkg/BodyMorph_Anims/Breathing Idle (1).fbx/Breathing Idle (1)
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Body Morph Player Package.lspkg/BodyMorph_Anims/Fast Run (1).fbx
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Body Morph Player Package.lspkg/BodyMorph_Anims/Fast Run (1).fbx/Animations
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Body Morph Player Package.lspkg/BodyMorph_Anims/Fast Run (1).fbx/Animations/Layer0
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Body Morph Player Package.lspkg/BodyMorph_Anims/Fast Run (1).fbx/Fast Run (1)
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Body Morph Player Package.lspkg/BodyMorph_Anims/Walking (2).fbx
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Body Morph Player Package.lspkg/BodyMorph_Anims/Walking (2).fbx/Animations
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Body Morph Player Package.lspkg/BodyMorph_Anims/Walking (2).fbx/Animations/Layer0
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Body Morph Player Package.lspkg/BodyMorph_Anims/Walking (2).fbx/Walking (2)
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Resources
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Resources/Materials
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Resources/Materials/BackgroundSphere.mat
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Resources/Materials/BackgroundSphere.ss_graph
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Resources/Materials/FloorWithBaseColor.mat
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Resources/Materials/Invisible.mat
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Resources/Materials/Invisible.ss_graph
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Resources/Materials/JumpButton.mat
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Resources/Materials/PBRWithInstancing.mat
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Resources/Materials/Renderer.mat
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Resources/Materials/Unlit.ss_graph
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Resources/Materials/pbr_with_base_color.ss_graph
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Resources/Materials/pbr_with_instancing.ss_graph
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Resources/Meshes
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Resources/Meshes/Box.mesh
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Resources/Meshes/Plane.mesh
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Resources/Meshes/SphericalBackground.mesh
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Resources/Prefabs
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Resources/Prefabs/BaseFloorPrefab.prefab
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Resources/Prefabs/Box.prefab
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Resources/Prefabs/CharacterBodyMorph.prefab
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Resources/Prefabs/PlayerPrefab.prefab
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Resources/Prefabs/SphereBackground.prefab
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Resources/Textures
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Resources/Textures/Base.png
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Resources/Textures/InstancingProxyTexture.proxyTexture
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Resources/Textures/JumpButton.png
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Resources/Textures/MaterialParams.png
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/Resources/Textures/Normal.png
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Camera Controller.lsc
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Camera Controller.lsc/CameraController
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Camera Controller.lsc/CameraController/Camera Controller.d.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Camera Controller.lsc/CameraController/Camera Controller.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Camera Controller.lsc/CameraController/ComponentContext.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Camera Controller.lsc/CameraController/Modules
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Camera Controller.lsc/CameraController/Modules/Camera Modes
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Camera Controller.lsc/CameraController/Modules/Camera Modes/CameraModeStrategy.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Camera Controller.lsc/CameraController/Modules/Camera Modes/Follow
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Camera Controller.lsc/CameraController/Modules/Camera Modes/Follow/FollowCameraModeConfigInput.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Camera Controller.lsc/CameraController/Modules/Camera Modes/Follow/FollowCameraModeStrategy.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Camera Controller.lsc/CameraController/Modules/Camera Modes/Orbit
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Camera Controller.lsc/CameraController/Modules/Camera Modes/Orbit/OrbitCameraModeConfigInput.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Camera Controller.lsc/CameraController/Modules/Camera Modes/Orbit/OrbitCameraModeStrategy.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Camera Controller.lsc/CameraController/Modules/Camera Modes/Orbit/OrbitCameraModeTouchController.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Camera Controller.lsc/CameraController/Modules/Camera Modes/ThirdPerson
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Camera Controller.lsc/CameraController/Modules/Camera Modes/ThirdPerson/ThirdPersonCameraModeConfigInput.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Camera Controller.lsc/CameraController/Modules/Camera Modes/ThirdPerson/ThirdPersonCameraModeStrategy.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Camera Controller.lsc/CameraController/Modules/InputsValidator.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Camera Controller.lsc/CameraController/Modules/Utils
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Camera Controller.lsc/CameraController/Modules/Utils/DestructionHelper.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Camera Controller.lsc/CameraController/Modules/Utils/Disposable.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Camera Controller.lsc/CameraController/Modules/Utils/Logger.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Camera Controller.lsc/CameraController/Modules/Utils/UnhandledEvent.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Camera Controller.lsc/CameraController/Modules/Utils/Utils.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Camera Controller.lsc/CameraController/README.md
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Character Controller.d.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Character Controller.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/ComponentContext.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Actions
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Actions/ActionsController.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Actions/CharacterAction.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Animation
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Animation/BasicMovement
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Animation/BasicMovement/AnimationClipWrapper.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Animation/BasicMovement/BasicMovementAnimationController.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Animation/BasicMovement/BasicMovementAnimationControllerConfig.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/CharacterControllerSettings.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Collision
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Collision/CollisionHelpers
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Collision/CollisionHelpers/AabbBuilder.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Collision/CollisionHelpers/AabbInfo.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Collision/CollisionHelpers/AabbOverlap.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Collision/CollisionHelpers/ProbeHelper.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Collision/CollisionHelpers/ShapeHelper.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Collision/CollisionHelpers/SurfaceNormalHelper.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Collision/CollisionsController.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Collision/GroundDetection
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Collision/GroundDetection/DisabledGroundDetectionStrategy.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Collision/GroundDetection/GroundDetection.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Collision/GroundDetection/GroundInfo.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Collision/GroundDetection/GroundSurfaceValidator.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Collision/GroundDetection/ShapeCastGroundDetection.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Collision/GroundDetection/ShapeCastGroundFinder.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Collision/OverlapRecovery
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Collision/OverlapRecovery/DirectionsForFixingOverlapProvider.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Collision/OverlapRecovery/OverlapFixer.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Collision/OverlapRecovery/OverlapRecovery.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Events
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Events/BehaviorGlobalTriggerEvent.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Events/CharacterEvent.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Events/CharacterPhysicsOverlapEvent.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Events/EventResponses
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Events/EventResponses/BaseResponse.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Events/EventResponses/Discrete
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Events/EventResponses/Discrete/BehaviorResponse.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Events/EventResponses/Discrete/CharacterActionResponse.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Events/EventResponses/Discrete/DiscreteResponse.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Events/EventResponses/Discrete/ScriptComponentApiResponse.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Input
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Input/Joystick
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Input/Joystick/JoystickInputControl.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Input/UiCamera
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Input/UiCamera/Ui Camera Prefab.prefab
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Input/UiCamera/UiCameraLayout.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Input/UiCamera/UiCameraProvider.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/InputsValidator.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/LockAxisController.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/MovementController.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/TransformUpdater.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Utils
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Utils/CallbacksWrapper.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Utils/CharacterControllerLogger.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Utils/DestructionHelper.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Utils/UnhandledEvent.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Modules/Utils/Utils.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/README.md
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Resources
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Resources/Animations
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Resources/Animations/idle.animationAsset
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Resources/Animations/jump.animationAsset
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Resources/Animations/run.animationAsset
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Resources/Animations/walk.animationAsset
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Resources/Input
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Resources/Input/JoystickComponent.lsc
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Resources/Input/JoystickComponent.lsc/Materials
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Resources/Input/JoystickComponent.lsc/Materials/Image - Dot.mat
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Resources/Input/JoystickComponent.lsc/Materials/Image - Plate.mat
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Resources/Input/JoystickComponent.lsc/Materials/Shaders
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Resources/Input/JoystickComponent.lsc/Materials/Shaders/Image.ss_graph
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Resources/Input/JoystickComponent.lsc/Materials/Textures
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Resources/Input/JoystickComponent.lsc/Materials/Textures/controlDot.pvr
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Resources/Input/JoystickComponent.lsc/Materials/Textures/controlPlate.pvr
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Resources/Input/JoystickComponent.lsc/Resources
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Resources/Input/JoystickComponent.lsc/Resources/ControlDot.prefab
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Resources/Input/JoystickComponent.lsc/Resources/ControlPlate.prefab
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Resources/Input/JoystickComponent.lsc/Scripts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Resources/Input/JoystickComponent.lsc/Scripts/Event.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Resources/Input/JoystickComponent.lsc/Scripts/IEvent.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Resources/Input/JoystickComponent.lsc/Scripts/JoystickComponent.d.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Resources/Input/JoystickComponent.lsc/Scripts/JoystickComponent.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Character Controller/Resources/Input/JoystickComponent.lsc/Scripts/JoystickComponentConfig.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Render Targets
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Render Targets/Render Target.renderTarget
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Resources
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Resources/Textures
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Resources/Textures/Echopark.hdr
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Resources/Textures/Echopark.hdr/Diffuse
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Components/Character Controller.lsc/Resources/Textures/Echopark.hdr/Specular
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Core
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Core/BaseGameElement.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Core/CameraState.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Core/GameConstants.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Core/GameController.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Core/GameElement.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Core/GameTypes.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Core/InternalGameElement.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Core/MapGenerator.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Core/Movement
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Core/Movement/MovementSystem.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Core/Movement/MovementTypes.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Core/VisualEditController.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Core/WallGameElement.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/InstanceRendering
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/InstanceRendering/InstanceManager.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/InstanceRendering/InstancedRenderer.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/UI
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/UI/UIController.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Utils
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Utils/BaseEasyLensBlock.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Utils/CharachterPrefabControl.js
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Utils/ComponentUtils.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Utils/DestructionHelper.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Utils/Event.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Utils/MapUtils.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Utils/PhysicsUtils.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/Utils/SceneUtils.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/VisualEditManager.lsc
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/VisualEditManager.lsc/Src
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/VisualEditManager.lsc/Src/ExternalDeclarations
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/TypeScript/VisualEditManager.lsc/Src/ExternalDeclarations/VisualEditAPI.ts
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/anims (1)
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/anims (1)/Animations
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/anims (1)/Animations/JumpAnim.animationAsset
+      - Easy Lens/Lens Components/2.5DMapPlay_5.13.0.lsc/package.native
       - Easy Lens/Lens Components/CanvasAPI_5.14.lsc
+      - Easy Lens/Lens Components/Screen Sticker_5.11.lsc
       - Easy Lens/Lens Components/Screen_Text_5.12.lsc
       - Easy Lens/Lens Components/SpriteManager_5.14.lsc
       - Easy Lens/Lens Components/SpriteStore_5.14.lsc
       - Easy Lens/Lens Components/Touch Events_5.11.lsc
+      - Easy Lens/LensController 2 - Fixed.js
       - Easy Lens/LensController 2.js
+      - Easy Lens/LensController 3.js
+      - Easy Lens/LensController 4.js
       - Easy Lens/LensController.js
       - Echopark.hdr
+      - Enemy/Mutant
+      - Enemy/Mutant.fbx
+      - Enemy/Mutant.fbx/.hidden
+      - Enemy/Mutant.fbx/.hidden/mutant_M
+      - Enemy/Mutant.fbx/.hidden/white
+      - Enemy/Mutant.fbx/Animations
+      - Enemy/Mutant.fbx/Animations/Layer0
+      - Enemy/Mutant.fbx/Materials
+      - Enemy/Mutant.fbx/Materials/mutant_M
+      - Enemy/Mutant.fbx/Meshes
+      - Enemy/Mutant.fbx/Meshes/MutantMesh
+      - Enemy/Mutant.fbx/Mutant
+      - Enemy/Mutant.fbx/Textures
+      - Enemy/Mutant.fbx/Textures/Mutant_diffuse
+      - Enemy/Mutant.fbx/Textures/Mutant_normal
       - Enemy/Mutant/.hidden
       - Enemy/Mutant/.hidden/mutant_M.ss_graph
       - Enemy/Mutant/.hidden/white.jpg
@@ -86,6 +355,29 @@ CollapsedEntities:
       - Makeup.lspkg/Textures/mask_lips_opened.jpg
       - Makeup.lspkg/package.native
       - Score UI Component.lsc
+      - Spawn Object at World Mesh On Tap 3.lspkg
+      - Spawn Object at World Mesh On Tap 3.lspkg/Materials
+      - Spawn Object at World Mesh On Tap 3.lspkg/Materials/InternalPBRGraph.mat
+      - Spawn Object at World Mesh On Tap 3.lspkg/Materials/occluder.mat
+      - Spawn Object at World Mesh On Tap 3.lspkg/Materials/world_mesh_visualization.mat
+      - Spawn Object at World Mesh On Tap 3.lspkg/Meshes
+      - Spawn Object at World Mesh On Tap 3.lspkg/Meshes/Pin.mesh
+      - Spawn Object at World Mesh On Tap 3.lspkg/Prefabs
+      - Spawn Object at World Mesh On Tap 3.lspkg/Prefabs/Point of Interest.prefab
+      - Spawn Object at World Mesh On Tap 3.lspkg/Scripts
+      - Spawn Object at World Mesh On Tap 3.lspkg/Scripts/Spawn Object at World Mesh On Tap.js
+      - Spawn Object at World Mesh On Tap 3.lspkg/Shaders
+      - Spawn Object at World Mesh On Tap 3.lspkg/Shaders/InternalPBRGraph1.ss_graph
+      - Spawn Object at World Mesh On Tap 3.lspkg/Shaders/occluder.ss_graph
+      - Spawn Object at World Mesh On Tap 3.lspkg/Shaders/world_mesh_visualization.ss_graph
+      - Spawn Object at World Mesh On Tap 3.lspkg/Spawn Object at World Mesh on Tap__PLACE_IN_SCENE.prefab
+      - Spawn Object at World Mesh On Tap 3.lspkg/Textures
+      - Spawn Object at World Mesh On Tap 3.lspkg/Textures/Base.png
+      - Spawn Object at World Mesh On Tap 3.lspkg/Textures/MaterialParams.png
+      - Spawn Object at World Mesh On Tap 3.lspkg/Textures/Normal.png
+      - Spawn Object at World Mesh On Tap 3.lspkg/Textures/ground_tex.png
+      - Spawn Object at World Mesh On Tap 3.lspkg/World Mesh.worldmesh
+      - Spawn Object at World Mesh On Tap 3.lspkg/package.native
       - Spawn Object at World Mesh On Tap.lspkg
       - Spawn Object at World Mesh On Tap.lspkg/Materials
       - Spawn Object at World Mesh On Tap.lspkg/Materials/InternalPBRGraph.mat

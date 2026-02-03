@@ -5,8 +5,8 @@ data:
   cameraType: Perspective
   deviceName: iPhone 14 Pro
   devicePose:
-    eulerRotation: {x: -5.699327, y: 1.499700, z: -0.000007}
-    translation: {x: -11.306170, y: 0.000000, z: -428.851654}
+    eulerRotation: {x: -4.499044, y: -3.896368, z: -0.000002}
+    translation: {x: -3.449095, y: 0.000000, z: 32.819256}
   deviceTypeOverride: Unknown
   fullscreenSpectaclesSimulation: true
   inputSourceData:
@@ -14,7 +14,7 @@ data:
     input:
       source: InteractiveResources.bundle/Scenes/Evening Outdoor
       upscale: 1280
-    cameraView: Back
+    cameraView: Front
   interactiveAspect: 1.000000
   interactiveFov: 66.519997
   internetAvailableOverride: true

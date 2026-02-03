@@ -1,0 +1,49 @@
+- !<AssetImportMetadata/3b1c312d-337a-354a-d910-8b1c404474dc>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 12ac49a7-8450-456e-aaff-24a52a8bfda6
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 12ac49a7-8450-456e-aaff-24a52a8bfda6
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 7KdKQ3loPSY1Di6Bvq1bg0
+  AssetDataMap:
+    JavaScriptAsset: !<own> d3335944-ffbf-4563-8bf4-be753f2b2d2f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/d3335944-ffbf-4563-8bf4-be753f2b2d2f>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: db67a987-35ff-4ab7-9e3a-c505d1b619d5
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    behaviorCallback: false
+    deviceTracking: false
+    parent: false
+    prefab: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - deviceTracking: !<reference.DeviceTracking> 00000000-0000-0000-0000-000000000000
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      parent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      behaviorCallback: !<reference.ScriptComponent[]>
+        []
+  ScriptTypes:
+    -
+      {}

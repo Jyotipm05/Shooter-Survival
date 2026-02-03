@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/b5597317-495a-ed9c-a613-a98e38fc6296>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> c8b10909-2e10-4b2a-a6d8-d7fd73bb3f04
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> c8b10909-2e10-4b2a-a6d8-d7fd73bb3f04
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 7KdKQ3loPSY1Di6Bvq1bg0
+  AssetDataMap:
+    ObjectPrefab: !<own> 6143f667-3e98-4a07-b401-81d24600b175
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/45f0f7f2-4403-4fb6-4969-968e6042bcb7>
+  PrefabRemaps:
+    []
+  Name: Point of Interest__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4b066680-e27a-49a2-6f81-b9144a68969d
+- !<RenderMeshVisual/4b066680-e27a-49a2-6f81-b9144a68969d>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 3
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 7553a5bd-3036-41db-9b2e-cd4c7bdabb0c
+  Mesh: !<reference> 9b712e79-7ddf-48b6-a1ad-a0a1da2e1cf6
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/6143f667-3e98-4a07-b401-81d24600b175>
+  Prototype: !<ObjectOwner/dce8dff8-2bd8-4fe1-accc-4c8bab33a8f8>
+    PackagePath: ""
+    objects:
+      - !<own> 45f0f7f2-4403-4fb6-4969-968e6042bcb7

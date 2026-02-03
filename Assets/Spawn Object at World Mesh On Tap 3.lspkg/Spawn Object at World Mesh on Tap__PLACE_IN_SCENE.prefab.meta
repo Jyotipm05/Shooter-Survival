@@ -1,0 +1,108 @@
+- !<AssetImportMetadata/0d935144-82fc-eca7-a98d-7f245ac459df>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> fdbb416d-b092-4482-b3c1-b2cbaf9e64f8
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> fdbb416d-b092-4482-b3c1-b2cbaf9e64f8
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 7KdKQ3loPSY1Di6Bvq1bg0
+  AssetDataMap:
+    ObjectPrefab: !<own> c61ed4bf-c23e-4c73-9ca4-4e749e92f4fc
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/2ef6b5aa-9464-4418-443b-2d4cb4086564>
+  PrefabRemaps:
+    []
+  Name: World Mesh Visualization
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b3df512a-71e0-4a3e-63a0-feb1aebfaa53
+- !<ScriptComponent/7658a0d3-822d-4242-5e39-e09e81de86e2>
+  PrefabRemaps:
+    []
+  Name: Spawn Object at World Mesh On Tap
+  Enabled: true
+  ScriptAsset: !<reference> 12ac49a7-8450-456e-aaff-24a52a8bfda6
+  ScriptInputsDefault:
+    behaviorCallback: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      deviceTracking: !<reference.DeviceTracking> 194afe46-b435-4f6b-8194-04222e721231
+      prefab: !<reference.ObjectPrefab> c8b10909-2e10-4b2a-a6d8-d7fd73bb3f04
+      parent: !<reference.SceneObject> f3609882-a430-410f-7b22-cb082b48504b
+      behaviorCallback: !<reference.ScriptComponent[]>
+        []
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/b3df512a-71e0-4a3e-63a0-feb1aebfaa53>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 86b9d57d-e496-4a16-a9c3-8fe2c49ef49e
+    - !<reference> 0d146a17-ca0b-4211-9639-10a5f2e40821
+  Mesh: !<reference> bfdd52e8-c4be-4b6b-9ee8-62bc4b9ece46
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/c61ed4bf-c23e-4c73-9ca4-4e749e92f4fc>
+  Prototype: !<ObjectOwner/9746fc1d-b6cf-496f-907c-9954d2dc14a1>
+    PackagePath: ""
+    objects:
+      - !<own> de7859eb-0b5e-4f8f-7758-7adc05405109
+- !<SceneObject/de7859eb-0b5e-4f8f-7758-7adc05405109>
+  PrefabRemaps:
+    []
+  Name: Spawn Object at World Mesh on Tap__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> f3609882-a430-410f-7b22-cb082b48504b
+    - !<own> 2ef6b5aa-9464-4418-443b-2d4cb4086564
+  Components:
+    - !<own> 7658a0d3-822d-4242-5e39-e09e81de86e2
+- !<SceneObject/f3609882-a430-410f-7b22-cb082b48504b>
+  PrefabRemaps:
+    []
+  Name: Parent to add to
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
